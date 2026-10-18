@@ -1,0 +1,17 @@
+{
+  "name": "video-effects-library",
+  "version": "1.0.0",
+  "description": "Named video effects, each shown as a short clip. Pick the ones you want and copy one prompt for Claude Code or any AI video tool.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node site/build.mjs",
+    "scenes:camera": "node scripts/build-set3d.mjs",
+    "scenes:motion": "node scripts/build-mg.mjs",
+    "scenes:styles": "node scripts/build-ds.mjs",
+    "scenes:text": "node scripts/build-text.mjs",
+    "data:text": "node scripts/text-data.mjs"
+  }
+}

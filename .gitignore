@@ -1,0 +1,14 @@
+# Built scenes and render logs (rebuilt by the scripts)
+previews/set3d/*/
+!previews/set3d/fonts/
+previews/mg/
+previews/ds/
+previews/text/
+previews/*.html
+previews/_snaps/
+**/.hyperframes/
+*-raw.mp4
+
+node_modules/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "letter-fade",
+    "no": "01",
+    "name": "Fade in by letter",
+    "line": "Letters fade up one after another.",
+    "prompt": "Fade in by letter: the words \"Hello there\" are split into single letters. Starting at 0.5 s, each letter rises 60 px and fades from 0 to full over 0.6 s with a power3 ease out (cubic-bezier(0.215, 0.61, 0.355, 1)). The next letter starts 0.06 s after the one before, left to right, so the line is done by about 1.7 s. Then it holds still.",
+    "also_called": [
+      {
+        "name": "Fade Up Characters",
+        "where": "After Effects text presets (Animate In)"
+      },
+      {
+        "name": "per-character-rise",
+        "where": "animate-text skill"
+      },
+      {
+        "name": "SplitText chars + stagger",
+        "where": "GSAP"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: SplitText",
+        "url": "https://gsap.com/docs/v3/Plugins/SplitText/"
+      },
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "blur-in",
+    "no": "02",
+    "name": "Blur in",
+    "line": "Letters come into focus from a soft blur.",
+    "prompt": "Blur in: the words \"Into focus\" are split into letters. Starting at 0.5 s, each letter goes from 24 px blur, 0 opacity and 30 px low to sharp, full and in place over 0.9 s with an expo style ease out (cubic-bezier(0.22, 1, 0.36, 1)). Letters start 0.04 s apart, left to right. Then it holds still.",
+    "also_called": [
+      {
+        "name": "soft-blur-in / focus-blur-resolve",
+        "where": "animate-text skill"
+      },
+      {
+        "name": "text-focus-in",
+        "where": "Animista"
+      },
+      {
+        "name": "Blur Text",
+        "where": "React Bits"
+      }
+    ],
+    "sources": [
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      },
+      {
+        "name": "Animista: text animations",
+        "url": "https://animista.net/play/text"
+      },
+      {
+        "name": "React Bits: Blur Text",
+        "url": "https://reactbits.dev/text-animations/blur-text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "word-pop",
+    "no": "03",
+    "name": "Word pop",
+    "line": "Each word pops in with a springy bounce.",
+    "prompt": "Word pop: three words, \"Big news\" on the first line and \"today\" in red on the second. Starting at 0.5 s, each word scales from 40% to 100% and fades in over 0.5 s with a back ease out (back.out(2.2), about 15% overshoot, then settles). The next word starts 0.25 s later. Then it holds still.",
+    "also_called": [
+      {
+        "name": "spring-scale-in",
+        "where": "animate-text skill"
+      },
+      {
+        "name": "bounceIn / zoomIn",
+        "where": "Animate.css"
+      },
+      {
+        "name": "Pop / scale pop",
+        "where": "Video editors and caption apps"
+      }
+    ],
+    "sources": [
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      },
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "line-by-line",
+    "no": "04",
+    "name": "Line by line",
+    "line": "Each line slides in after the one before.",
+    "prompt": "Line by line: three lines, \"Start small.\", \"Stay with it.\" and \"Get better.\" (the last one in red). Starting at 0.5 s, each whole line slides in from 80 px to the left and fades in over 0.9 s with an expo style ease out (cubic-bezier(0.22, 1, 0.36, 1)). The next line starts 0.35 s later. Then it holds still.",
+    "also_called": [
+      {
+        "name": "line-by-line-slide",
+        "where": "animate-text skill"
+      },
+      {
+        "name": "SplitText lines + stagger",
+        "where": "GSAP"
+      },
+      {
+        "name": "Fade in lines",
+        "where": "Slide and video tools"
+      }
+    ],
+    "sources": [
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      },
+      {
+        "name": "GSAP: SplitText",
+        "url": "https://gsap.com/docs/v3/Plugins/SplitText/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "tracking-in",
+    "no": "05",
+    "name": "Tracking in",
+    "line": "Wide spaced letters pull together into a word.",
+    "prompt": "Tracking in: one word, \"BREATHE\", in capitals. At 0.5 s it starts with letter spacing at 0.9 em, 0 opacity and 12 px blur. Over 1.6 s the spacing closes to 0.02 em with a power3 ease out, while opacity and blur clear in the first 0.9 s. Then it holds still.",
+    "also_called": [
+      {
+        "name": "tracking-in-expand / tracking-in-contract",
+        "where": "Animista"
+      },
+      {
+        "name": "Tracking animator",
+        "where": "After Effects text animators"
+      },
+      {
+        "name": "letter-spacing animation",
+        "where": "CSS"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Animista: text animations",
+        "url": "https://animista.net/play/text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "flip-in",
+    "no": "06",
+    "name": "Flip in",
+    "line": "Letters flip up on their bottom edge in 3D.",
+    "prompt": "Flip in: the words \"Turn it up\" are split into letters, each hinged on its bottom edge with 800 px perspective. Starting at 0.5 s, each letter turns from rotateX -100 degrees (lying back, unseen) to 0 over 0.8 s with a back ease out (back.out(1.7)), and fades in over the first 0.25 s. Letters start 0.07 s apart, left to right. Then it holds still.",
+    "also_called": [
+      {
+        "name": "flipInX",
+        "where": "Animate.css"
+      },
+      {
+        "name": "SplitText chars + rotationX",
+        "where": "GSAP"
+      },
+      {
+        "name": "3D flip text",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      },
+      {
+        "name": "GSAP: SplitText",
+        "url": "https://gsap.com/docs/v3/Plugins/SplitText/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "typewriter",
+    "no": "07",
+    "name": "Typewriter",
+    "line": "Letters appear one at a time, like typing.",
+    "prompt": "Typewriter: the words \"Just start typing.\" appear one letter at a time, left aligned on two lines, with a red block cursor after the last letter. The cursor blinks (0.5 s on, 0.5 s off) until 0.6 s, then typing starts: one new letter every 0.09 s, each one appearing at once with no fade (steps(1, end)). The cursor stays solid while typing, moves with the text, and blinks again once the line is done.",
+    "also_called": [
+      {
+        "name": "Typewriter",
+        "where": "After Effects text presets (Animate In)"
+      },
+      {
+        "name": "TextPlugin",
+        "where": "GSAP"
+      },
+      {
+        "name": "typewriter (steps easing)",
+        "where": "animate-text skill, CSS"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: TextPlugin",
+        "url": "https://gsap.com/docs/v3/Plugins/TextPlugin/"
+      },
+      {
+        "name": "CSS-Tricks: Typewriter effect",
+        "url": "https://css-tricks.com/snippets/css/typewriter-effect/"
+      },
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "scramble",
+    "no": "08",
+    "name": "Scramble text",
+    "line": "Random letters settle into the real words.",
+    "prompt": "Scramble text: the words \"Signal found\" in a monospace font. At 0.5 s every letter slot shows a random capital letter or digit in grey, changing every 0.05 s. From 0.8 s the real letters lock in from left to right, one every 0.1 s, and turn dark when they lock. The line is fully readable at about 2.0 s, then holds still.",
+    "also_called": [
+      {
+        "name": "ScrambleText",
+        "where": "GSAP"
+      },
+      {
+        "name": "Decrypted Text / Scrambled Text",
+        "where": "React Bits"
+      },
+      {
+        "name": "Decode effect, hacker text",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: ScrambleTextPlugin",
+        "url": "https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/"
+      },
+      {
+        "name": "React Bits: Decrypted Text",
+        "url": "https://reactbits.dev/text-animations/decrypted-text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "rotating-words",
+    "no": "09",
+    "name": "Rotating words",
+    "line": "One word swaps for the next in the same spot.",
+    "prompt": "Rotating words: \"Make it\" stays on the first line. On the second line, \"simple\" rises in at 0.5 s. At 1.6 s and 2.8 s the current word slides up out of its line and fades while the next word slides up in from below, both over 0.55 s with a power3 ease in-out, inside a clip so nothing shows outside the line. Order: simple, faster, better (the last one in red). Then it holds still.",
+    "also_called": [
+      {
+        "name": "Word Rotate",
+        "where": "Magic UI"
+      },
+      {
+        "name": "Rotating Text",
+        "where": "React Bits"
+      },
+      {
+        "name": "Text Loop",
+        "where": "Motion Primitives"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Magic UI: Word Rotate",
+        "url": "https://magicui.design/docs/components/word-rotate"
+      },
+      {
+        "name": "React Bits: Rotating Text",
+        "url": "https://reactbits.dev/text-animations/rotating-text"
+      },
+      {
+        "name": "Motion Primitives: Text Loop",
+        "url": "https://motion-primitives.com/docs/text-loop"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "wave",
+    "no": "10",
+    "name": "Wave text",
+    "line": "Letters rise and fall in a moving wave.",
+    "prompt": "Wave text: the words \"Ride the wave\" sit still until 0.5 s. Then each letter moves up 40 px and back down on a sine ease, 0.6 s up and 0.6 s down, repeating. Each letter starts 0.07 s after the one to its left, so a wave runs through the line from left to right. It keeps going until the end.",
+    "also_called": [
+      {
+        "name": "Wavy text",
+        "where": "Magic UI, CSS tutorials"
+      },
+      {
+        "name": "wave letters (animation-delay per letter)",
+        "where": "CSS"
+      },
+      {
+        "name": "Bouncing letters",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "DEV: Animate the letters in a string with CSS",
+        "url": "https://dev.to/fossheim/how-to-style-and-animate-the-letters-in-a-string-using-css-mjd"
+      },
+      {
+        "name": "CSS IRL: Negative animation delay (wave letters)",
+        "url": "https://css-irl.info/quick-tip-negative-animation-delay/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "highlighter",
+    "no": "11",
+    "name": "Highlighter",
+    "line": "A marker stroke sweeps behind the key words.",
+    "prompt": "Highlighter: three lines, \"Read the\", \"important\", \"part first.\" A soft red marker band (a slightly rough, tilted bar behind the letters) sweeps from left to right behind \"important\" from 0.8 s over 0.6 s, then behind \"first\" from 1.6 s over 0.4 s, both with a power2 ease in-out. The text stays dark on top of the band. Then it holds still.",
+    "also_called": [
+      {
+        "name": "highlight annotation",
+        "where": "Rough Notation"
+      },
+      {
+        "name": "Highlighter (highlight)",
+        "where": "Magic UI"
+      },
+      {
+        "name": "Marker highlight",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Rough Notation",
+        "url": "https://roughnotation.com/"
+      },
+      {
+        "name": "Magic UI: Highlighter",
+        "url": "https://magicui.design/docs/components/highlighter"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "underline-draw",
+    "no": "12",
+    "name": "Underline draw",
+    "line": "A line draws itself under a word.",
+    "prompt": "Underline draw: two lines, \"Remember\" and \"this one.\" A hand drawn red underline draws itself under \"this one\" from left to right, from 0.8 s over 0.7 s with a power2 ease in-out. A second, thinner pass draws back from right to left from 1.45 s over 0.5 s, like a quick double stroke. Then it holds still.",
+    "also_called": [
+      {
+        "name": "underline annotation",
+        "where": "Rough Notation"
+      },
+      {
+        "name": "DrawSVG / stroke draw-on",
+        "where": "GSAP"
+      },
+      {
+        "name": "Highlighter (underline)",
+        "where": "Magic UI"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Rough Notation",
+        "url": "https://roughnotation.com/"
+      },
+      {
+        "name": "GSAP: DrawSVGPlugin",
+        "url": "https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/"
+      },
+      {
+        "name": "Magic UI: Highlighter",
+        "url": "https://magicui.design/docs/components/highlighter"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "text-shimmer",
+    "no": "13",
+    "name": "Text shimmer",
+    "line": "A dark band runs across grey text.",
+    "prompt": "Text shimmer: the words \"Thinking it over\" in light grey. A dark band about one third of the text width runs across the letters from left to right, only inside the letter shapes (gradient clipped to the text). Each pass takes 1.5 s with linear speed: 0.5 to 2.0 s, 2.0 to 3.5 s, 3.5 to 5.0 s.",
+    "also_called": [
+      {
+        "name": "Text Shimmer",
+        "where": "Motion Primitives"
+      },
+      {
+        "name": "Shiny Text",
+        "where": "React Bits"
+      },
+      {
+        "name": "Animated Shiny Text",
+        "where": "Magic UI"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Motion Primitives: Text Shimmer",
+        "url": "https://motion-primitives.com/docs/text-shimmer"
+      },
+      {
+        "name": "React Bits: Shiny Text",
+        "url": "https://reactbits.dev/text-animations/shiny-text"
+      },
+      {
+        "name": "Magic UI: Animated Shiny Text",
+        "url": "https://magicui.design/docs/components/animated-shiny-text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "rubber-band",
+    "no": "14",
+    "name": "Rubber band",
+    "line": "A word stretches and snaps back like elastic.",
+    "prompt": "Rubber band: the red word \"Boing!\" fades in at 0.3 s over 0.2 s. At 0.8 s it plays a 1 s rubber band: scale x/y goes 1/1, then 1.25/0.75 at 30%, 0.75/1.25 at 40%, 1.15/0.85 at 50%, 0.95/1.05 at 65%, 1.05/0.95 at 75%, back to 1/1 at 100%, eased between keys. It plays again at 2.8 s.",
+    "also_called": [
+      {
+        "name": "rubberBand",
+        "where": "Animate.css"
+      },
+      {
+        "name": "jello / wobble (related)",
+        "where": "Animate.css"
+      },
+      {
+        "name": "Elastic stretch",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      },
+      {
+        "name": "Animista: text animations",
+        "url": "https://animista.net/play/text"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "blur-out",
+    "no": "15",
+    "name": "Blur out",
+    "line": "Words drift up and blur away.",
+    "prompt": "Blur out: the words \"See you\" and \"soon.\" fade in at 0.3 s over 0.4 s and hold. At 2.0 s each word moves up 40 px, blurs to 16 px and fades to 0 over 0.8 s with an ease in (cubic-bezier(0.64, 0, 0.78, 0)). Words leave 0.15 s apart, first to last. The frame stays empty to the end.",
+    "also_called": [
+      {
+        "name": "blur-out-up",
+        "where": "animate-text skill"
+      },
+      {
+        "name": "text-blur-out",
+        "where": "Animista"
+      },
+      {
+        "name": "fadeOutUp",
+        "where": "Animate.css"
+      }
+    ],
+    "sources": [
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      },
+      {
+        "name": "Animista: text animations",
+        "url": "https://animista.net/play/text"
+      },
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "text-explode",
+    "no": "16",
+    "name": "Text explode",
+    "line": "Letters burst apart and fly off screen.",
+    "prompt": "Text explode: the word \"BOOM\" sits in the middle. At 1.2 s it shakes for 0.25 s (about 6 px). At 1.5 s every letter flies out from the centre in its own direction at 1400 to 2200 px per second, spinning 360 to 720 degrees, with gravity pulling down (2600 px per second squared), fading out over 1.2 s. At 3.4 s the word fades back in over 0.5 s with a small scale up from 90%, so the clip loops.",
+    "also_called": [
+      {
+        "name": "SplitText + Physics2D",
+        "where": "GSAP"
+      },
+      {
+        "name": "Shatter / explode text",
+        "where": "Common name"
+      },
+      {
+        "name": "Letter scatter",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: Physics2DPlugin",
+        "url": "https://gsap.com/docs/v3/Plugins/Physics2DPlugin/"
+      },
+      {
+        "name": "GSAP: SplitText",
+        "url": "https://gsap.com/docs/v3/Plugins/SplitText/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "karaoke-captions",
+    "no": "17",
+    "name": "Karaoke captions",
+    "line": "Each word lights up as it is spoken.",
+    "prompt": "Karaoke captions: a two line caption, \"You only need\" / \"one small start.\", fades in at 0.4 s over 0.2 s in dark text. From 0.8 s each word turns red in reading order, one word every 0.38 s, each change taking 0.08 s, so it follows a voice. Words that were spoken stay red. The last word turns red at about 2.7 s, then it holds.",
+    "also_called": [
+      {
+        "name": "Karaoke effect (k tags)",
+        "where": "ASS subtitles, Aegisub"
+      },
+      {
+        "name": "Word highlight captions",
+        "where": "Submagic, CapCut style captions"
+      },
+      {
+        "name": "Word by word karaoke",
+        "where": "Short video editors"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Aegisub: ASS override tags (karaoke)",
+        "url": "https://aegisub.org/docs/latest/ass_tags/"
+      },
+      {
+        "name": "Submagic: AI captions",
+        "url": "https://www.submagic.co/ai-caption"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "word-by-word",
+    "no": "18",
+    "name": "Word by word captions",
+    "line": "One word on screen at a time.",
+    "prompt": "Word by word captions: big centred words, one at a time: \"This\", \"is\", \"how\", \"you\", \"say\", \"it.\" The first shows at 0.4 s and each next word replaces it every 0.45 s with a hard cut. Each word pops from 85% to 100% scale over 0.12 s with a power2 ease out. The last word is red and stays to the end.",
+    "also_called": [
+      {
+        "name": "One word captions",
+        "where": "Opus Clip, Submagic"
+      },
+      {
+        "name": "Single word subtitles",
+        "where": "Short video editors"
+      },
+      {
+        "name": "Fast captions",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Opus Clip: AI caption generator",
+        "url": "https://www.opus.pro/tools/ai-caption-generator"
+      },
+      {
+        "name": "Submagic: AI captions",
+        "url": "https://www.submagic.co/ai-caption"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "highlight-box",
+    "no": "19",
+    "name": "Highlight box captions",
+    "line": "A box jumps to the word being spoken.",
+    "prompt": "Highlight box captions: the caption \"Small steps\" / \"every day.\" shows at 0.4 s. A red rounded box sits behind the spoken word and that word turns white. The box appears on \"Small\" at 0.6 s (scale 70% to 100%, 0.15 s), then slides and resizes to the next word every 0.5 s (0.15 s each, power2 ease out). It ends on \"day.\" at 2.1 s and holds.",
+    "also_called": [
+      {
+        "name": "Highlight colour captions",
+        "where": "Submagic"
+      },
+      {
+        "name": "Active word box",
+        "where": "Caption apps"
+      },
+      {
+        "name": "Box highlight subtitles",
+        "where": "VEED, CapCut style captions"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Submagic help: highlight colours",
+        "url": "https://care.submagic.co/en/article/how-to-apply-highlighting-colors-to-your-words-16ttppq/"
+      },
+      {
+        "name": "VEED: auto subtitle generator",
+        "url": "https://www.veed.io/tools/auto-subtitle-generator-online"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "keyword-captions",
+    "no": "20",
+    "name": "Keyword captions",
+    "line": "Bold captions where the key word pops.",
+    "prompt": "Keyword captions: heavy capital captions, a short chunk at a time, centred. \"STOP WAITING\" pops up at 0.4 s, \"FOR THE\" replaces it at 1.3 s, the key word \"PERFECT\" at 2.2 s and \"MOMENT\" at 3.1 s. Each chunk rises 40 px and fades in over 0.2 s with back.out(2). The key word is red, 1.3 times bigger and pops from 50% to 115% to 100% scale over 0.35 s.",
+    "also_called": [
+      {
+        "name": "Hormozi style captions",
+        "where": "Submagic, Kapwing"
+      },
+      {
+        "name": "Emphasis captions",
+        "where": "Caption apps"
+      },
+      {
+        "name": "Bold pop captions",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Submagic blog: Hormozi style captions",
+        "url": "https://www.submagic.co/blog/how-to-make-alex-hormozi-captions"
+      },
+      {
+        "name": "Kapwing: Hormozi style captions template",
+        "url": "https://www.kapwing.com/explore/hormozi-style-captions-template"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "extruded-3d",
+    "no": "21",
+    "name": "Extruded 3D text",
+    "line": "Thick solid letters with real depth.",
+    "prompt": "Extruded 3D text: the word \"BOLD\" as solid red 3D letters with deep extrusion and a small rounded bevel, lit by a soft key light with shadows on a light studio backdrop. From 0.5 s it rises into place and turns from 50 degrees to 20 degrees on the vertical axis over 0.9 s with a power3 ease out, then sways slowly between 20 and -20 degrees (sine in-out, 1.8 s each way) to the end.",
+    "also_called": [
+      {
+        "name": "TextGeometry (extrude + bevel)",
+        "where": "Three.js"
+      },
+      {
+        "name": "Extrude",
+        "where": "Blender, Cinema 4D, After Effects 3D"
+      },
+      {
+        "name": "3D type",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Three.js: TextGeometry",
+        "url": "https://threejs.org/docs/pages/TextGeometry.html"
+      },
+      {
+        "name": "Three.js example: 3D text",
+        "url": "https://threejs.org/examples/webgl_geometry_text.html"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "chrome-text",
+    "no": "22",
+    "name": "Chrome text",
+    "line": "Mirror metal letters with light sliding over them.",
+    "prompt": "Chrome text: the word \"SHINE\" as extruded 3D letters in mirror metal (metalness 1, roughness about 0.12) reflecting a soft studio environment, on a light backdrop. It fades in at 0.3 s over 0.4 s. From 0.5 s to 4.5 s it turns from -30 to 30 degrees on the vertical axis with a sine in-out ease, so the reflections slide across the letters.",
+    "also_called": [
+      {
+        "name": "Metallic / chrome type",
+        "where": "Photoshop and 3D text styles"
+      },
+      {
+        "name": "metalness + envMap",
+        "where": "Three.js"
+      },
+      {
+        "name": "Liquid chrome",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Three.js: MeshStandardMaterial (metalness)",
+        "url": "https://threejs.org/docs/pages/MeshStandardMaterial.html"
+      },
+      {
+        "name": "Three.js example: environment maps",
+        "url": "https://threejs.org/examples/webgl_materials_envmaps.html"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "glass-text",
+    "no": "23",
+    "name": "Glass text",
+    "line": "Clear glass letters that bend what is behind.",
+    "prompt": "Glass text: the word \"GLASS\" as thick extruded letters in clear glass (transmission 1, thickness 0.6, roughness 0.05, index of refraction 1.5) in front of a panel of red, dark and light stripes. The stripes slide left at a steady speed for the whole clip so you see them bend through the letters. The word fades in at 0.3 s and turns from -15 to 15 degrees with a sine in-out ease from 0.5 s to 4.5 s.",
+    "also_called": [
+      {
+        "name": "Glass type",
+        "where": "Common name"
+      },
+      {
+        "name": "transmission (MeshPhysicalMaterial)",
+        "where": "Three.js"
+      },
+      {
+        "name": "Refraction text",
+        "where": "3D tools"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Three.js: MeshPhysicalMaterial (transmission)",
+        "url": "https://threejs.org/docs/pages/MeshPhysicalMaterial.html"
+      },
+      {
+        "name": "Three.js example: physical transmission",
+        "url": "https://threejs.org/examples/webgl_materials_physical_transmission.html"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "text-spin",
+    "no": "24",
+    "name": "3D text spin",
+    "line": "The word spins in and lands facing you.",
+    "prompt": "3D text spin: the word \"SPIN\" as white extruded 3D letters with red sides. It appears at 0.5 s and spins in on its vertical axis from -540 degrees to 0 (one and a half turns) while scaling from 60% to 100%, over 1.6 s with an expo ease out, so it slows down and lands facing the camera. Then it holds.",
+    "also_called": [
+      {
+        "name": "Spin in / Y rotation",
+        "where": "3D text presets"
+      },
+      {
+        "name": "flipInY (2D cousin)",
+        "where": "Animate.css"
+      },
+      {
+        "name": "Turntable",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Three.js: TextGeometry",
+        "url": "https://threejs.org/docs/pages/TextGeometry.html"
+      },
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "weight-morph",
+    "no": "25",
+    "name": "Weight morph",
+    "line": "Letters go from thin to heavy and back.",
+    "prompt": "Weight morph: the word \"Weight\" in a variable font starts at weight 200. From 0.5 s each letter goes to weight 900 over 0.6 s and back to 200 over 0.6 s (sine in-out), repeating, with each letter starting 0.08 s after the one to its left, so a heavy wave runs through the word until the end.",
+    "also_called": [
+      {
+        "name": "Variable font animation",
+        "where": "MDN, v-fonts"
+      },
+      {
+        "name": "font-variation-settings wght",
+        "where": "CSS"
+      },
+      {
+        "name": "Weight wave",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "MDN: font-variation-settings",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings"
+      },
+      {
+        "name": "v-fonts: variable fonts",
+        "url": "https://v-fonts.com/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "circular-text",
+    "no": "26",
+    "name": "Circular text",
+    "line": "A word runs around a turning circle.",
+    "prompt": "Circular text: the words \"ROUND AND\" repeated three times around a circle about 560 px wide, with a red dot in the middle. At 0.4 s the ring scales from 80% to 100%, turns from -60 degrees to 0 and fades in over 0.8 s with a power3 ease out. Then it turns clockwise at a steady 36 degrees per second to the end.",
+    "also_called": [
+      {
+        "name": "Text on a path (textPath)",
+        "where": "SVG, MDN"
+      },
+      {
+        "name": "Rotating text badge",
+        "where": "Web design"
+      },
+      {
+        "name": "Type on a circle",
+        "where": "Illustrator, Figma"
+      }
+    ],
+    "sources": [
+      {
+        "name": "MDN: SVG textPath",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/textPath"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "stagger-center",
+    "no": "27",
+    "name": "Stagger from center",
+    "line": "Letters appear from the middle outward.",
+    "prompt": "Stagger from center: the word \"Centered\" is split into letters. From 0.5 s the middle letters appear first and the rest follow outward to both edges, 0.06 s apart: each letter goes from 0 opacity, 40 px low and 6 px blur to clear and in place over 0.7 s with an expo style ease out (cubic-bezier(0.22, 1, 0.36, 1)). Then it holds.",
+    "also_called": [
+      {
+        "name": "stagger-from-center",
+        "where": "animate-text skill"
+      },
+      {
+        "name": "stagger from: center",
+        "where": "GSAP"
+      },
+      {
+        "name": "Center out reveal",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "animate-text (named text effects)",
+        "url": "https://github.com/pixel-point/animate-text"
+      },
+      {
+        "name": "GSAP: SplitText",
+        "url": "https://gsap.com/docs/v3/Plugins/SplitText/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  },
+  {
+    "id": "neon-flicker",
+    "no": "28",
+    "name": "Neon flicker",
+    "line": "A glowing sign word flickers on.",
+    "prompt": "Neon flicker: a dark rounded panel holds the words \"OPEN\" / \"LATE\" as unlit grey tubes. At 0.6 s the tubes flicker on and off (on 0.6, off 0.68, on 0.75, off 0.9, on 1.0, off 1.1, on 1.3 s), then glow steady red with a soft layered glow (stacked text shadows). At 3.0 s the letter \"T\" flickers twice (off 3.0, on 3.08, off 3.18, on 3.3 s), then all stay on.",
+    "also_called": [
+      {
+        "name": "Neon sign text",
+        "where": "CSS-Tricks, Daily Dev Tips"
+      },
+      {
+        "name": "Flicker effect",
+        "where": "CSS animation"
+      },
+      {
+        "name": "Neon glow",
+        "where": "Common name"
+      }
+    ],
+    "sources": [
+      {
+        "name": "CSS-Tricks: How to create neon text",
+        "url": "https://css-tricks.com/how-to-create-neon-text-with-css/"
+      },
+      {
+        "name": "Daily Dev Tips: CSS neon animation",
+        "url": "https://daily-dev-tips.com/posts/css-neon-animation/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + GSAP (coded, no AI images)",
+      "scene": "scripts/build-text.mjs",
+      "duration": 5
+    }
+  }
+]

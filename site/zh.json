@@ -1,0 +1,56 @@
+{
+ "camera-moves": {
+  "title": "运镜",
+  "line": "镜头在场景里怎样移动。",
+  "chips": {
+   "body": "移动",
+   "turn": "转向",
+   "lens": "镜头和对焦",
+   "fast": "快速"
+  }
+ },
+ "motion-graphics": {
+  "title": "动态图形",
+  "line": "形状、卡片和文字在画面上怎样动。",
+  "chips": {
+   "shapes": "形状",
+   "words": "文字和数字",
+   "paths": "线条和路径",
+   "groups": "群组和层次",
+   "fx": "光效和冲击"
+  }
+ },
+ "design-styles": {
+  "title": "设计风格",
+  "line": "整个画面的样子：颜色、形状和字体。",
+  "chips": {
+   "tiktok": "TikTok 风",
+   "movements": "艺术流派",
+   "print": "印刷和手绘",
+   "screen": "屏幕和 UI",
+   "3d": "3D",
+   "retro": "复古和未来",
+   "drawn": "手绘和动漫"
+  },
+  "note": "每个风格都有自己的画面，用那个风格的样子画出来。"
+ },
+ "text": {
+  "title": "文字动画",
+  "line": "文字怎样出现和离开。",
+  "chips": {
+   "appear": "出现",
+   "type": "打字和解码",
+   "captions": "字幕",
+   "emphasis": "强调",
+   "3d": "3D 文字",
+   "exit": "离场",
+   "letters": "逐字"
+  },
+  "note": "每个都用 code 做，放在同一个浅色画面上。"
+ },
+ "transitions": {
+  "title": "转场",
+  "line": "一个镜头怎样换到下一个。",
+  "chips": {}
+ }
+}

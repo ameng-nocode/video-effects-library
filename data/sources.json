@@ -1,0 +1,66 @@
+[
+  {
+    "id": "hyperframes",
+    "name": "HyperFrames",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+    "we_use": "effect code, names, timing"
+  },
+  {
+    "id": "video-shotcraft",
+    "name": "video-shotcraft",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/LICENSE",
+    "we_use": "card names in Also called"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "url": "https://help.runwayml.com/hc/en-us/articles/47313504791059-Camera-Terms-Prompts-Examples",
+    "license": "names only",
+    "license_url": "",
+    "we_use": "camera move names in Also called"
+  },
+  {
+    "id": "veo",
+    "name": "Google Veo",
+    "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/video/video-gen-prompt-guide",
+    "license": "names only",
+    "license_url": "",
+    "we_use": "camera move names in Also called"
+  },
+  {
+    "id": "kling",
+    "name": "Kling",
+    "url": "https://kling.ai/blog/kling-ai-camera-control-video-guide",
+    "license": "names only",
+    "license_url": "",
+    "we_use": "camera move names in Also called"
+  },
+  {
+    "id": "hailuo",
+    "name": "MiniMax Hailuo",
+    "url": "https://platform.minimax.io/docs/api-reference/video-generation-t2v",
+    "license": "names only",
+    "license_url": "",
+    "we_use": "camera move names in Also called"
+  },
+  {
+    "id": "higgsfield",
+    "name": "Higgsfield",
+    "url": "https://higgsfield.ai/camera-controls",
+    "license": "names only",
+    "license_url": "",
+    "we_use": "camera move names in Also called"
+  },
+  {
+    "id": "sora",
+    "name": "Sora 2",
+    "url": "https://developers.openai.com/cookbook/examples/sora/sora2_prompting_guide",
+    "license": "names only",
+    "license_url": "",
+    "we_use": "camera move phrases in Also called"
+  }
+]

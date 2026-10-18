@@ -1,0 +1,312 @@
+[
+  {
+    "id": "camera-moves",
+    "title": "Camera moves",
+    "line": "How the camera moves through the scene.",
+    "data": "data/camera-moves.json",
+    "clips": "previews/clips",
+    "chips": [
+      {
+        "id": "body",
+        "label": "Moves",
+        "ids": [
+          "push-in",
+          "pull-back",
+          "truck",
+          "crane-up",
+          "orbit",
+          "tracking-shot",
+          "fpv-flythrough"
+        ]
+      },
+      {
+        "id": "turn",
+        "label": "Turns",
+        "ids": [
+          "pan",
+          "tilt",
+          "roll",
+          "whip-pan"
+        ]
+      },
+      {
+        "id": "lens",
+        "label": "Lens and focus",
+        "ids": [
+          "zoom-in",
+          "crash-zoom",
+          "dolly-zoom",
+          "rack-focus"
+        ]
+      },
+      {
+        "id": "fast",
+        "label": "Fast",
+        "ids": [
+          "crash-zoom",
+          "whip-pan",
+          "handheld",
+          "fpv-flythrough"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "motion-graphics",
+    "title": "Motion graphics",
+    "line": "How shapes, cards and words move on screen.",
+    "data": "data/motion-graphics.json",
+    "clips": "previews/clips/motion-graphics",
+    "chips": [
+      {
+        "id": "shapes",
+        "label": "Shapes",
+        "ids": [
+          "pop-in",
+          "overshoot",
+          "squash-and-stretch",
+          "anticipation",
+          "shape-morph"
+        ]
+      },
+      {
+        "id": "words",
+        "label": "Words and numbers",
+        "ids": [
+          "mask-reveal",
+          "count-up",
+          "kinetic-typography"
+        ]
+      },
+      {
+        "id": "paths",
+        "label": "Lines and paths",
+        "ids": [
+          "line-draw",
+          "motion-path",
+          "motion-trail"
+        ]
+      },
+      {
+        "id": "groups",
+        "label": "Groups and depth",
+        "ids": [
+          "stagger",
+          "parallax"
+        ]
+      },
+      {
+        "id": "fx",
+        "label": "Light and impact",
+        "ids": [
+          "light-sweep",
+          "glitch",
+          "impact-shake"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "design-styles",
+    "title": "Design styles",
+    "line": "How the whole look is drawn: colours, shapes and type.",
+    "data": "data/design-styles.json",
+    "clips": "previews/clips/design-styles",
+    "chips": [
+      {
+        "id": "tiktok",
+        "label": "TikTok looks",
+        "ids": [
+          "frutiger-aero",
+          "dreamcore",
+          "scrapbook",
+          "doodle",
+          "lo-fi-anime",
+          "y2k",
+          "retro-vhs"
+        ]
+      },
+      {
+        "id": "movements",
+        "label": "Art movements",
+        "ids": [
+          "bauhaus",
+          "swiss-style",
+          "art-deco",
+          "memphis",
+          "pop-art",
+          "art-nouveau",
+          "constructivism",
+          "de-stijl",
+          "op-art",
+          "psychedelic-art"
+        ]
+      },
+      {
+        "id": "print",
+        "label": "Print and paint",
+        "ids": [
+          "halftone",
+          "risograph",
+          "duotone",
+          "collage",
+          "ukiyo-e",
+          "watercolor",
+          "ink-wash",
+          "stained-glass",
+          "paper-cut",
+          "blueprint"
+        ]
+      },
+      {
+        "id": "screen",
+        "label": "Screen and UI",
+        "ids": [
+          "brutalism",
+          "flat-vector",
+          "claymorphism",
+          "glassmorphism",
+          "skeuomorphism",
+          "dark-hud",
+          "frutiger-aero"
+        ]
+      },
+      {
+        "id": "3d",
+        "label": "3D",
+        "ids": [
+          "claymorphism",
+          "glassmorphism",
+          "liquid-metal",
+          "isometric",
+          "low-poly",
+          "steampunk"
+        ]
+      },
+      {
+        "id": "retro",
+        "label": "Retro and future",
+        "ids": [
+          "pixel-art",
+          "retro-vhs",
+          "split-flap",
+          "y2k",
+          "vaporwave",
+          "ascii-art",
+          "cyberpunk",
+          "neon-sign",
+          "steampunk",
+          "dark-hud"
+        ]
+      },
+      {
+        "id": "drawn",
+        "label": "Drawn and anime",
+        "ids": [
+          "anime-cel-shading",
+          "lo-fi-anime",
+          "flat-vector",
+          "doodle"
+        ]
+      }
+    ],
+    "note": "Each one has its own scene, drawn the way that style looks."
+  },
+  {
+    "id": "transitions",
+    "title": "Transitions",
+    "line": "How one shot changes into the next.",
+    "data": "data/transitions.json",
+    "clips": "previews/clips/transitions",
+    "chips": []
+  },
+  {
+    "id": "text",
+    "title": "Text animation",
+    "line": "How words appear and leave.",
+    "data": "data/text.json",
+    "clips": "previews/clips/text",
+    "chips": [
+      {
+        "id": "appear",
+        "label": "Appear",
+        "ids": [
+          "letter-fade",
+          "blur-in",
+          "word-pop",
+          "line-by-line",
+          "tracking-in",
+          "flip-in",
+          "stagger-center"
+        ]
+      },
+      {
+        "id": "type",
+        "label": "Type and decode",
+        "ids": [
+          "typewriter",
+          "scramble",
+          "rotating-words"
+        ]
+      },
+      {
+        "id": "captions",
+        "label": "Captions",
+        "ids": [
+          "karaoke-captions",
+          "word-by-word",
+          "highlight-box",
+          "keyword-captions"
+        ]
+      },
+      {
+        "id": "emphasis",
+        "label": "Emphasis",
+        "ids": [
+          "wave",
+          "highlighter",
+          "underline-draw",
+          "text-shimmer",
+          "rubber-band",
+          "weight-morph",
+          "neon-flicker",
+          "circular-text"
+        ]
+      },
+      {
+        "id": "3d",
+        "label": "3D text",
+        "ids": [
+          "extruded-3d",
+          "chrome-text",
+          "glass-text",
+          "text-spin",
+          "flip-in"
+        ]
+      },
+      {
+        "id": "exit",
+        "label": "Exit",
+        "ids": [
+          "blur-out",
+          "text-explode"
+        ]
+      },
+      {
+        "id": "letters",
+        "label": "Letter by letter",
+        "ids": [
+          "letter-fade",
+          "blur-in",
+          "flip-in",
+          "typewriter",
+          "scramble",
+          "wave",
+          "stagger-center",
+          "weight-morph"
+        ]
+      }
+    ],
+    "note": "Each one is built in code on the same light stage."
+  }
+]

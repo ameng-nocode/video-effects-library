@@ -1,0 +1,1258 @@
+[
+ {
+  "id": "bauhaus",
+  "no": "01",
+  "name": "Bauhaus",
+  "line": "Circles, squares and bold primary colours.",
+  "prompt": "Bauhaus style: build everything from basic geometry (circles, squares, triangles, thick straight bars). Use only red, yellow and blue plus black on an off-white paper background. Flat colour fills, no gradients, no shadows. Asymmetric grid with big colour blocks and thin black rules, often on a diagonal. Type is a bold geometric sans serif in lower case or all caps, sometimes set vertically. Lots of empty space.",
+  "also_called": [
+   {
+    "name": "Bauhaus design",
+    "where": "Design history"
+   },
+   {
+    "name": "Geometric modernism",
+    "where": "Behance and Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Bauhaus",
+    "url": "https://en.wikipedia.org/wiki/Bauhaus"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/bauhaus.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "swiss-style",
+  "no": "02",
+  "name": "Swiss style",
+  "line": "Clean grid, big sans serif, lots of space.",
+  "prompt": "Swiss style (International Typographic Style): a strict modular grid, flush left ragged right text, one sans serif family such as Helvetica or Akzidenz Grotesk in two or three weights. Huge headline type, small tidy body text. Mostly black and white with one strong accent colour, often red. Objective photos or simple shapes, aligned to the grid. No decoration, clear hierarchy, lots of white space.",
+  "also_called": [
+   {
+    "name": "International Typographic Style",
+    "where": "Design history"
+   },
+   {
+    "name": "Swiss design",
+    "where": "Behance and Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: International Typographic Style",
+    "url": "https://en.wikipedia.org/wiki/International_Typographic_Style"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/swiss-style.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "art-deco",
+  "no": "03",
+  "name": "Art Deco",
+  "line": "Gold lines, fans and 1920s glamour.",
+  "prompt": "Art Deco style: symmetric layout with sunburst rays, stepped shapes, fans, chevrons and thin parallel lines. Palette of black, deep navy or emerald with metallic gold and cream. Sleek streamlined figures and machines. Tall, thin, high contrast display type in all caps with wide letter spacing. Decorative borders and frames, a luxurious 1920s poster feel.",
+  "also_called": [
+   {
+    "name": "Deco",
+    "where": "Design history"
+   },
+   {
+    "name": "Streamline Moderne (later form)",
+    "where": "Design history"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Art Deco",
+    "url": "https://en.wikipedia.org/wiki/Art_Deco"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/art-deco.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "memphis",
+  "no": "04",
+  "name": "Memphis",
+  "line": "Playful shapes, squiggles and loud 80s colour.",
+  "prompt": "Memphis style (Memphis Group, 1980s): playful scattered shapes such as squiggles, zigzags, confetti dots, triangles and half circles. Bright clashing colours: pink, teal, mint, lilac and black. Black and white patterns like terrazzo specks, grids and stripes. Thick black outlines, flat fills, slightly off balance on purpose. Bold rounded or geometric type.",
+  "also_called": [
+   {
+    "name": "Memphis Group",
+    "where": "Design history"
+   },
+   {
+    "name": "Memphis design",
+    "where": "Behance and Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Memphis Group",
+    "url": "https://en.wikipedia.org/wiki/Memphis_Group"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/memphis.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "pop-art",
+  "no": "05",
+  "name": "Pop art",
+  "line": "Comic book colour, thick lines and dots.",
+  "prompt": "Pop art style: comic book look with thick black ink outlines, flat bright primary colours, Ben Day dots for shading, and a speech bubble or a big sound word. Bold, simple everyday subject shown large and centered. Sometimes repeated in a grid in different colour sets, like a silkscreen print. Heavy condensed or comic lettering.",
+  "also_called": [
+   {
+    "name": "Comic style",
+    "where": "Behance and Dribbble tags"
+   },
+   {
+    "name": "Lichtenstein style",
+    "where": "Design history"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Pop art",
+    "url": "https://en.wikipedia.org/wiki/Pop_art"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/pop-art.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "halftone",
+  "no": "06",
+  "name": "Halftone",
+  "line": "The picture is made of printed dots.",
+  "prompt": "Halftone style: turn the image into a grid of round dots that grow in dark areas and shrink in light areas, like an old newspaper or offset print. Use one or two ink colours on a flat paper colour, for example deep blue dots on bright paper. Dots are clearly visible at normal size. Simple high contrast subject, little other detail.",
+  "also_called": [
+   {
+    "name": "Halftone effect",
+    "where": "Photoshop and Figma plugins"
+   },
+   {
+    "name": "Dot screen",
+    "where": "Print terms"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Halftone",
+    "url": "https://en.wikipedia.org/wiki/Halftone"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/halftone.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "risograph",
+  "no": "07",
+  "name": "Risograph",
+  "line": "Bright overlapping inks with grain and slight misprint.",
+  "prompt": "Risograph print style: two or three bright spot inks such as fluorescent pink, teal and blue, overlapping so they mix where they cross. Grainy, uneven ink with visible paper texture, a little misregistration between colour layers, and soft dot or grain shading instead of smooth gradients. Simple flat shapes, bold hand set type, zine poster feel.",
+  "also_called": [
+   {
+    "name": "Riso print",
+    "where": "Behance and Dribbble tags"
+   },
+   {
+    "name": "Riso effect",
+    "where": "Photoshop and Procreate brushes"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Risograph",
+    "url": "https://en.wikipedia.org/wiki/Risograph"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/risograph.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "duotone",
+  "no": "08",
+  "name": "Duotone",
+  "line": "A picture in just two colours.",
+  "prompt": "Duotone style: map a photo to only two colours, one for the shadows and one for the highlights, for example deep navy shadows and bright cyan highlights. Keep strong contrast and a clean, modern layout with a bold sans serif headline. No other colours in the photo.",
+  "also_called": [
+   {
+    "name": "Duotone photo",
+    "where": "Photoshop and Figma"
+   },
+   {
+    "name": "Gradient map",
+    "where": "Photoshop"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Duotone",
+    "url": "https://en.wikipedia.org/wiki/Duotone"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/duotone.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "collage",
+  "no": "09",
+  "name": "Collage",
+  "line": "Cut out photos and paper layered together.",
+  "prompt": "Collage style: layer cut out photos, torn paper edges, magazine scraps, tape strips and paper textures. Mix black and white photo pieces with flat colour shapes. Visible cut lines and small drop shadows so the pieces feel physically stacked. Cut out letters or ransom note type for words. Slightly messy but arranged on purpose.",
+  "also_called": [
+   {
+    "name": "Mixed media",
+    "where": "Behance and Dribbble tags"
+   },
+   {
+    "name": "Paper cut out",
+    "where": "Design tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Collage",
+    "url": "https://en.wikipedia.org/wiki/Collage"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/collage.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "brutalism",
+  "no": "10",
+  "name": "Brutalism",
+  "line": "Raw, bold and plain on purpose.",
+  "prompt": "Brutalism (web brutalism): raw layout that looks like plain HTML on purpose. Huge black type, system or monospace fonts, thick black borders, hard edges and no rounded corners. Flat blocks of one loud colour on white, no gradients, hard offset shadows. Underlined links, boxes that touch or overlap, visible grid lines. Honest and unpolished, but readable.",
+  "also_called": [
+   {
+    "name": "Web brutalism",
+    "where": "UX articles"
+   },
+   {
+    "name": "Neo brutalism",
+    "where": "Behance and Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Nielsen Norman Group: Brutalism and antidesign",
+    "url": "https://www.nngroup.com/articles/brutalism-antidesign/"
+   },
+   {
+    "name": "Kittl: Brutalist art style guide",
+    "url": "https://www.kittl.com/blogs/brutalist-art-style-guide-adv/"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/brutalism.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "flat-vector",
+  "no": "11",
+  "name": "Flat vector",
+  "line": "Simple shapes, flat colours, no shadows.",
+  "prompt": "Flat vector style: clean illustration built from simple shapes with flat colour fills, no gradients, no textures and no realistic shadows. A small friendly palette of four to six colours. Rounded simple figures and objects, crisp edges, lots of clear space. Clean sans serif type. Looks like a modern app or website illustration.",
+  "also_called": [
+   {
+    "name": "Flat design",
+    "where": "UI design"
+   },
+   {
+    "name": "Flat illustration",
+    "where": "Behance and Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Flat design",
+    "url": "https://en.wikipedia.org/wiki/Flat_design"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/flat-vector.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "claymorphism",
+  "no": "12",
+  "name": "Claymorphism",
+  "line": "Puffy 3D shapes that look made of clay.",
+  "prompt": "Claymorphism style: soft, puffy 3D shapes that look made of matte clay or inflated like balloons. Pastel colours such as lilac, mint, baby blue and soft pink. Big rounded corners, a light inner highlight on the top left, a darker inner shadow on the bottom right, and a soft diffuse drop shadow under each shape. Clean studio light, friendly and playful.",
+  "also_called": [
+   {
+    "name": "Clay UI",
+    "where": "Dribbble tags"
+   },
+   {
+    "name": "3D clay",
+    "where": "Behance tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Smashing Magazine: Claymorphism",
+    "url": "https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/"
+   },
+   {
+    "name": "Dribbble: claymorphism tag",
+    "url": "https://dribbble.com/tags/claymorphism"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/claymorphism.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "pixel-art",
+  "no": "13",
+  "name": "Pixel art",
+  "line": "Drawn pixel by pixel like an old video game.",
+  "prompt": "Pixel art style: everything drawn on a low resolution grid with clearly visible square pixels, no smoothing and no blur. Limited palette of about 16 colours, simple dithering for shading, dark one pixel outlines. Looks like a 16 bit video game screen. Blocky pixel font for any words.",
+  "also_called": [
+   {
+    "name": "8 bit / 16 bit",
+    "where": "Game art"
+   },
+   {
+    "name": "Sprite art",
+    "where": "Game art"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Pixel art",
+    "url": "https://en.wikipedia.org/wiki/Pixel_art"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/pixel-art.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "y2k",
+  "no": "14",
+  "name": "Y2K",
+  "line": "Shiny chrome and bubbly late 90s tech.",
+  "prompt": "Y2K style (around 1998 to 2004): glossy chrome and liquid metal, iridescent and holographic surfaces, translucent bubble plastic in icy blue, silver and pink. Blobby rounded shapes, star sparkles, lens flares and grid lines. Futuristic wide or bubbly fonts with chrome fill. Feels like an old music player skin or tech ad from the millennium.",
+  "also_called": [
+   {
+    "name": "Y2K aesthetic",
+    "where": "Design culture"
+   },
+   {
+    "name": "Cyber Y2K",
+    "where": "Behance and Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Y2K aesthetic",
+    "url": "https://en.wikipedia.org/wiki/Y2K_aesthetic"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/y2k.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "retro-vhs",
+  "no": "15",
+  "name": "Retro VHS",
+  "line": "A paused 80s home video on an old TV.",
+  "prompt": "Retro VHS style: looks like a paused 1980s video tape on an old CRT TV. Soft blurry detail, colour bleeding, red and cyan fringes on edges, horizontal scan lines, a band of tracking noise, slight tape warp and washed out blacks. Warm sunset or neon purple and pink palette. White blocky on screen text like PLAY, a timecode and a date in the corners.",
+  "also_called": [
+   {
+    "name": "VHS effect",
+    "where": "Video editing presets"
+   },
+   {
+    "name": "VHS aesthetic",
+    "where": "Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: VHS",
+    "url": "https://en.wikipedia.org/wiki/VHS"
+   },
+   {
+    "name": "Dribbble: vhs tag",
+    "url": "https://dribbble.com/tags/vhs"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/retro-vhs.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "split-flap",
+  "no": "16",
+  "name": "Split-flap",
+  "line": "Letters on flipping tiles, like an old train board.",
+  "prompt": "Split-flap style: words shown on a dark grid of tiles, one letter per tile, like an old airport or train departure board. Each tile is matte black with a thin horizontal split line through the middle and off white, condensed bold letters. Rows of small labels, times and numbers, some characters in amber. Real hardware feel with soft reflections and small screws.",
+  "also_called": [
+   {
+    "name": "Solari board",
+    "where": "Design history"
+   },
+   {
+    "name": "Flip board",
+    "where": "Signage"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Split-flap display",
+    "url": "https://en.wikipedia.org/wiki/Split-flap_display"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/split-flap.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "dark-hud",
+  "no": "17",
+  "name": "Dark HUD (FUI)",
+  "line": "Sci-fi screens with one glowing accent.",
+  "prompt": "Dark HUD (FUI, fantasy user interface) style: near black background with faint topographic contour lines that drift. A heavy white sans serif headline of one to three words, one accent colour (amber) with a soft glow on key words and lines, red only for warnings. Small uppercase mono labels, letter spaced, typed on with a block cursor. Viewfinder corner brackets, 1px thin frames, tiny mono metadata and ticking numbers. Panels sit in 3D space tilted 10 to 18 degrees; the camera zooms through into the scene with motion blur, then keeps creeping in; text racks from blurred to sharp; a light streak sweeps across as a cut. Ease: expo out.",
+  "also_called": [
+   {
+    "name": "FUI / Fantasy user interface",
+    "where": "Film and TV screen graphics"
+   },
+   {
+    "name": "Sci-fi HUD",
+    "where": "Motion design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "No Film School: Fantasy User Interfaces",
+    "url": "https://nofilmschool.com/storytelling-through-fantasy-user-interfaces"
+   },
+   {
+    "name": "gskinner: FUI and HUDs",
+    "url": "https://blog.gskinner.com/archives/2019/04/fui-fun.html"
+   },
+   {
+    "name": "Wikipedia: Head-up display",
+    "url": "https://en.wikipedia.org/wiki/Head-up_display"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/dark-hud.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "glassmorphism",
+  "no": "18",
+  "name": "Glassmorphism",
+  "line": "Frosted glass panes over glossy shapes.",
+  "prompt": "Glassmorphism style: frosted see-through glass panels with rounded corners, a thin bright edge and soft shadow, floating in front of glossy coloured spheres. Everything behind the glass is blurred and slightly bent. Light background with a faint grid. Saturated violet, magenta and lilac spheres with shiny highlights. In 3D: physical glass material with transmission, roughness about 0.3, real refraction; panes drift and slide past each other while the spheres float.",
+  "also_called": [
+   {
+    "name": "Frosted glass UI",
+    "where": "UI design"
+   },
+   {
+    "name": "Glass UI",
+    "where": "Dribbble tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Glassmorphism",
+    "url": "https://en.wikipedia.org/wiki/Glassmorphism"
+   },
+   {
+    "name": "Nielsen Norman Group: Glassmorphism",
+    "url": "https://www.nngroup.com/articles/glassmorphism/"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP + Three.js (coded, no AI images)",
+   "scene": "scripts/ds-styles/glassmorphism.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "liquid-metal",
+  "no": "19",
+  "name": "Liquid metal",
+  "line": "Mirror chrome with light streaks on dark.",
+  "prompt": "Liquid metal style: mirror chrome surfaces on a dark charcoal background, reflecting long bright light strips (white with one warm and one cool streak). A chrome sphere that ripples like liquid, brushed metal shapes, a reflective dark floor. One small neon accent (lime) on the key item. Clean white sans serif headline, small mono labels. Reflections slide across the metal as the lights turn.",
+  "also_called": [
+   {
+    "name": "Chrome 3D",
+    "where": "Behance and Dribbble tags"
+   },
+   {
+    "name": "Liquid chrome",
+    "where": "3D design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Liquid metal",
+    "url": "https://en.wikipedia.org/wiki/Liquid_metal"
+   },
+   {
+    "name": "Dribbble: liquid metal tag",
+    "url": "https://dribbble.com/tags/liquid_metal"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP + Three.js (coded, no AI images)",
+   "scene": "scripts/ds-styles/liquid-metal.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "frutiger-aero",
+  "no": "20",
+  "name": "Frutiger Aero",
+  "line": "Glossy 2000s tech: sky, bubbles, water.",
+  "prompt": "Frutiger Aero style (about 2005 to 2013): glossy, optimistic tech look. Bright blue sky with soft clouds, green grass hills, see-through bubbles, water drops and light swooshes, glossy gel buttons with a white shine on top. Clean humanist sans serif type. Everything shiny, fresh and clean.",
+  "also_called": [
+   {
+    "name": "Aero aesthetic",
+    "where": "TikTok and internet culture"
+   },
+   {
+    "name": "Web 2.0 gloss",
+    "where": "UI design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Frutiger Aero",
+    "url": "https://en.wikipedia.org/wiki/Frutiger_Aero"
+   },
+   {
+    "name": "Creative Bloq: Frutiger Aero revival",
+    "url": "https://creativebloq.com/news/frutiger-aero-aesthetic-resurgance"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/frutiger-aero.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "dreamcore",
+  "no": "21",
+  "name": "Dreamcore",
+  "line": "Soft dreamy places with a strange calm.",
+  "prompt": "Dreamcore style: soft pastel colours (baby blue, pale pink, cream), hazy light, slightly blurred edges. Empty, familiar places that feel like a dream: a room with clouds inside, a door standing alone, a sky through a window. Calm, nostalgic and a little strange. Simple serif or handwritten words, small and quiet.",
+  "also_called": [
+   {
+    "name": "Dreamcore aesthetic",
+    "where": "TikTok and internet culture"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Dreamcore",
+    "url": "https://en.wikipedia.org/wiki/Dreamcore"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/dreamcore.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "scrapbook",
+  "no": "22",
+  "name": "Scrapbook",
+  "line": "Photos, stickers and notes on a page.",
+  "prompt": "Scrapbook style: a journal page with taped photos, stamps, stickers, ticket stubs and handwritten notes. Paper textures, washi tape, small doodles, slight rotations, soft drop shadows. Warm and personal. Items stick on one by one.",
+  "also_called": [
+   {
+    "name": "Scrapbook edit",
+    "where": "TikTok and Reels"
+   },
+   {
+    "name": "Journal aesthetic",
+    "where": "Pinterest"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Scrapbooking",
+    "url": "https://en.wikipedia.org/wiki/Scrapbooking"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/scrapbook.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "doodle",
+  "no": "23",
+  "name": "Doodle",
+  "line": "Hand drawn scribbles drawn on top.",
+  "prompt": "Doodle style: rough hand drawn lines in marker or pen, drawn on stroke by stroke: arrows, stars, circles, underlines, little hearts and sparkles around a word or subject. Slightly wobbly lines, white or black ink, one bright highlight colour. Playful and quick.",
+  "also_called": [
+   {
+    "name": "Doodle edit",
+    "where": "TikTok and Reels"
+   },
+   {
+    "name": "Hand drawn overlay",
+    "where": "Video editing"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Doodle",
+    "url": "https://en.wikipedia.org/wiki/Doodle"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/doodle.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "lo-fi-anime",
+  "no": "24",
+  "name": "Lo-fi anime",
+  "line": "A cozy anime room at night.",
+  "prompt": "Lo-fi anime style: a cozy room at night drawn like a 90s anime background. A desk by a rainy window, a warm lamp, plants, books, a steaming cup, the city lights outside. Soft purple and blue night colours with warm yellow light. Gentle looping motion only: rain, steam, a blinking light. Calm and quiet.",
+  "also_called": [
+   {
+    "name": "Lofi aesthetic",
+    "where": "YouTube and TikTok"
+   },
+   {
+    "name": "Study room anime",
+    "where": "Internet culture"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Lo-fi music",
+    "url": "https://en.wikipedia.org/wiki/Lo-fi_music"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/lo-fi-anime.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "art-nouveau",
+  "no": "25",
+  "name": "Art Nouveau",
+  "line": "Flowing plant lines and curvy frames.",
+  "prompt": "Art Nouveau style: long flowing organic lines (whiplash curves), plants, flowers and vines framing a figure with long flowing hair. Ornate curved frame, muted gold, sage green, cream and dusty rose. Decorative hand lettered type. Lines grow and curl like plants.",
+  "also_called": [
+   {
+    "name": "Jugendstil",
+    "where": "Design history"
+   },
+   {
+    "name": "Mucha style (art movement)",
+    "where": "Illustration"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Art Nouveau",
+    "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Art Nouveau",
+    "url": "https://midlibrary.io/styles/art-nouveau"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/art-nouveau.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "constructivism",
+  "no": "26",
+  "name": "Constructivism",
+  "line": "Red and black diagonals, bold type.",
+  "prompt": "Constructivism style: red, black and off white only. Strong diagonal bars and wedges, circles and photo cut outs, heavy condensed sans serif type set at angles, arrows pointing into the action. Feels like a 1920s poster with energy and urgency. Elements shoot in along the diagonals.",
+  "also_called": [
+   {
+    "name": "Russian Constructivism",
+    "where": "Design history"
+   },
+   {
+    "name": "Propaganda poster style",
+    "where": "Graphic design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Constructivism",
+    "url": "https://en.wikipedia.org/wiki/Constructivism_(art)"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Constructivism",
+    "url": "https://midlibrary.io/styles/constructivism"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/constructivism.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "de-stijl",
+  "no": "27",
+  "name": "De Stijl",
+  "line": "Black grid lines with primary blocks.",
+  "prompt": "De Stijl style: only horizontal and vertical lines, thick black grid lines on white, with some cells filled red, blue and yellow. No curves, no diagonals, no texture, asymmetric balance. Lines draw in, the grid splits and blocks fill one by one.",
+  "also_called": [
+   {
+    "name": "Neoplasticism",
+    "where": "Design history"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: De Stijl",
+    "url": "https://en.wikipedia.org/wiki/De_Stijl"
+   },
+   {
+    "name": "Midlibrary (Midjourney): De Stijl",
+    "url": "https://midlibrary.io/styles/de-stijl"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/de-stijl.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "op-art",
+  "no": "28",
+  "name": "Op art",
+  "line": "Black and white patterns that trick the eye.",
+  "prompt": "Op art style: high contrast black and white geometric patterns (stripes, checks, circles) that seem to bulge, wave or vibrate. Precise, hard edged, no texture. The pattern warps as if a sphere pushes through it.",
+  "also_called": [
+   {
+    "name": "Optical art",
+    "where": "Art history"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Op art",
+    "url": "https://en.wikipedia.org/wiki/Op_art"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Op art",
+    "url": "https://midlibrary.io/styles/op-art"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/op-art.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "psychedelic-art",
+  "no": "29",
+  "name": "Psychedelic art",
+  "line": "Swirling colour and melting 60s type.",
+  "prompt": "Psychedelic art style: 1960s concert poster look. Saturated clashing colours (magenta, orange, lime, violet), swirling liquid shapes, concentric ripples, warped bubble lettering that fills the space. Colours cycle and the shapes swirl and melt.",
+  "also_called": [
+   {
+    "name": "60s poster art",
+    "where": "Graphic design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Psychedelic art",
+    "url": "https://en.wikipedia.org/wiki/Psychedelic_art"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Psychedelic art",
+    "url": "https://midlibrary.io/styles/psychedelic-art"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/psychedelic-art.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "ukiyo-e",
+  "no": "30",
+  "name": "Ukiyo-e",
+  "line": "Japanese woodblock print, flat colour.",
+  "prompt": "Ukiyo-e style: Japanese woodblock print look. Flat colour areas in Prussian blue, indigo, cream and soft red, bold black outlines, paper texture, a red seal stamp. A big curling wave with claw like foam, a mountain far away. Lines stay clean and flat, no shading gradients.",
+  "also_called": [
+   {
+    "name": "Japanese woodblock",
+    "where": "Printmaking"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Ukiyo-e",
+    "url": "https://en.wikipedia.org/wiki/Ukiyo-e"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Ukiyo-e",
+    "url": "https://midlibrary.io/styles/ukiyo-e"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/ukiyo-e.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "watercolor",
+  "no": "31",
+  "name": "Watercolor",
+  "line": "Soft washes that bleed and pool.",
+  "prompt": "Watercolor style: soft transparent washes of paint on textured white paper. Colours bleed into each other, pool at the edges with darker rims, and leave white paper showing. Loose shapes, a few fine ink lines. Colour blooms outward as if on wet paper.",
+  "also_called": [
+   {
+    "name": "Watercolour",
+    "where": "Painting"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Watercolor painting",
+    "url": "https://en.wikipedia.org/wiki/Watercolor_painting"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/watercolor.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "ink-wash",
+  "no": "32",
+  "name": "Ink wash",
+  "line": "Black ink brush strokes on white.",
+  "prompt": "Ink wash style (sumi-e): black ink on white or rice paper, painted with a brush. Strong tapering strokes, grey washes for distance, lots of empty space. Bamboo, mountains, mist. A small red seal. Strokes paint on one by one.",
+  "also_called": [
+   {
+    "name": "Sumi-e",
+    "where": "Japanese painting"
+   },
+   {
+    "name": "Shui-mo",
+    "where": "Chinese painting"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Ink wash painting",
+    "url": "https://en.wikipedia.org/wiki/Ink_wash_painting"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/ink-wash.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "stained-glass",
+  "no": "33",
+  "name": "Stained glass",
+  "line": "Bright glass pieces in dark lead lines.",
+  "prompt": "Stained glass style: a picture made of bright coloured glass pieces (ruby, cobalt, emerald, amber) held by thick dark lead lines. A round rose window shape. Light shines through so pieces glow and flicker softly.",
+  "also_called": [
+   {
+    "name": "Church window",
+    "where": "Decorative art"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Stained glass",
+    "url": "https://en.wikipedia.org/wiki/Stained_glass"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Stained glass",
+    "url": "https://midlibrary.io/styles/stained-glass"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/stained-glass.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "skeuomorphism",
+  "no": "34",
+  "name": "Skeuomorphism",
+  "line": "Screens that copy real objects.",
+  "prompt": "Skeuomorphism style: interface pieces that copy real objects and materials: brushed metal knobs, leather, wood grain, stitched edges, glass dials, real shadows and highlights. An old radio app with a turning knob and a moving needle. Rich, tactile and detailed.",
+  "also_called": [
+   {
+    "name": "Realistic UI",
+    "where": "UI design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Skeuomorphism",
+    "url": "https://en.wikipedia.org/wiki/Skeuomorphism"
+   },
+   {
+    "name": "Nielsen Norman Group: Skeuomorphism",
+    "url": "https://www.nngroup.com/articles/skeuomorphism/"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/skeuomorphism.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "isometric",
+  "no": "35",
+  "name": "Isometric",
+  "line": "3D at a fixed angle, no perspective.",
+  "prompt": "Isometric style: 3D objects drawn at a fixed 30 degree angle with no perspective, so parallel lines stay parallel. A tiny city block on a floating tile: buildings, trees, a road, a car. Clean flat colours with three tones per object (top, left, right). Buildings rise and the car drives.",
+  "also_called": [
+   {
+    "name": "Isometric illustration",
+    "where": "Behance and Dribbble tags"
+   },
+   {
+    "name": "2.5D",
+    "where": "Game art"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Isometric video game graphics",
+    "url": "https://en.wikipedia.org/wiki/Isometric_video_game_graphics"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP + Three.js (coded, no AI images)",
+   "scene": "scripts/ds-styles/isometric.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "low-poly",
+  "no": "36",
+  "name": "Low poly",
+  "line": "Shapes made of a few flat triangles.",
+  "prompt": "Low poly style: 3D shapes built from a few large flat triangles, each face a slightly different shade so the facets show. Simple animal or landscape, warm sunset colours. Flat shading, no smooth surfaces. Facets catch the light as it turns.",
+  "also_called": [
+   {
+    "name": "Polygon art",
+    "where": "3D design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Low poly",
+    "url": "https://en.wikipedia.org/wiki/Low_poly"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Low poly",
+    "url": "https://midlibrary.io/styles/low-poly"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP + Three.js (coded, no AI images)",
+   "scene": "scripts/ds-styles/low-poly.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "ascii-art",
+  "no": "37",
+  "name": "ASCII art",
+  "line": "Pictures made only of keyboard letters.",
+  "prompt": "ASCII art style: a picture made only of text characters in a mono font, darker areas using dense characters like @ # % and lighter areas using . : -. Green or white text on black like an old terminal. The picture types itself in line by line with a blinking cursor.",
+  "also_called": [
+   {
+    "name": "Text art",
+    "where": "Computer art"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: ASCII art",
+    "url": "https://en.wikipedia.org/wiki/ASCII_art"
+   },
+   {
+    "name": "Midlibrary (Midjourney): ASCII art",
+    "url": "https://midlibrary.io/styles/ascii-art"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/ascii-art.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "anime-cel-shading",
+  "no": "38",
+  "name": "Anime cel shading",
+  "line": "Flat colour with hard shadow edges.",
+  "prompt": "Anime cel shading style: flat colour areas with hard edged shadows (one shadow tone, no gradients), clean dark outlines, big bright eyes, spiky hair. Bright sky background. Speed lines and wind for action. Looks like a frame from an anime series.",
+  "also_called": [
+   {
+    "name": "Cel shaded",
+    "where": "3D and games"
+   },
+   {
+    "name": "Anime style",
+    "where": "Illustration"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Cel shading",
+    "url": "https://en.wikipedia.org/wiki/Cel_shading"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/anime-cel-shading.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "vaporwave",
+  "no": "39",
+  "name": "Vaporwave",
+  "line": "Pastel pink and cyan, old computer windows.",
+  "prompt": "Vaporwave style: pastel pink, cyan and purple, a classical marble bust, a checkerboard floor going into the distance, old computer pop up windows, palm trees and a gradient sunset. Wide spaced Latin text and a retro 90s desktop feel. Slow, dreamy, a bit ironic.",
+  "also_called": [
+   {
+    "name": "Aesthetic (A E S T H E T I C)",
+    "where": "Internet culture"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Vaporwave",
+    "url": "https://en.wikipedia.org/wiki/Vaporwave"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/vaporwave.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "cyberpunk",
+  "no": "40",
+  "name": "Cyberpunk",
+  "line": "Neon city at night, rain and signs.",
+  "prompt": "Cyberpunk style: a dense city at night in the rain, neon signs in magenta and cyan reflecting on wet ground, tall dark buildings, steam, a figure in a hood. High contrast, glowing light against deep shadow. Signs flicker and rain falls.",
+  "also_called": [
+   {
+    "name": "Neon noir",
+    "where": "Film and games"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Cyberpunk",
+    "url": "https://en.wikipedia.org/wiki/Cyberpunk"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Cyberpunk",
+    "url": "https://midlibrary.io/styles/cyberpunk"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/cyberpunk.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "steampunk",
+  "no": "41",
+  "name": "Steampunk",
+  "line": "Brass gears, pipes and old machines.",
+  "prompt": "Steampunk style: Victorian era machines in brass and copper, polished gears, rivets, pressure gauges, pipes and puffs of steam, dark wood. Warm metallic light. Gears turn and mesh, steam vents.",
+  "also_called": [
+   {
+    "name": "Victorian sci-fi",
+    "where": "Genre art"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Steampunk",
+    "url": "https://en.wikipedia.org/wiki/Steampunk"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Steampunk",
+    "url": "https://midlibrary.io/styles/steampunk"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP + Three.js (coded, no AI images)",
+   "scene": "scripts/ds-styles/steampunk.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "neon-sign",
+  "no": "42",
+  "name": "Neon sign",
+  "line": "Glowing tube letters on a dark wall.",
+  "prompt": "Neon sign style: glowing glass tube letters and icons on a dark brick wall, bent tube shapes with rounded ends, a strong colour glow spilling onto the wall. Hot pink, cyan and warm white. The sign buzzes and flickers on, one part at a time.",
+  "also_called": [
+   {
+    "name": "Neon light",
+    "where": "Signage"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Neon sign",
+    "url": "https://en.wikipedia.org/wiki/Neon_sign"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/neon-sign.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "paper-cut",
+  "no": "43",
+  "name": "Paper cut",
+  "line": "Layered paper with soft shadows.",
+  "prompt": "Paper cut style: a scene made of stacked layers of cut paper, each layer a flat colour with a soft shadow on the layer behind, giving real depth. Simple wavy shapes, an underwater scene with fish and seaweed. Layers sway gently at different speeds.",
+  "also_called": [
+   {
+    "name": "Papercraft",
+    "where": "Illustration"
+   },
+   {
+    "name": "Layered paper",
+    "where": "Behance tags"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Paper cutting",
+    "url": "https://en.wikipedia.org/wiki/Paper_cutting"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/paper-cut.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "blueprint",
+  "no": "44",
+  "name": "Blueprint",
+  "line": "White lines on blue technical paper.",
+  "prompt": "Blueprint style: thin white technical lines on deep blue paper with a fine grid. A rocket or machine drawn in outline, with dimension lines, arrows, numbers and small mono labels. Precise and engineered. The drawing traces itself line by line.",
+  "also_called": [
+   {
+    "name": "Technical drawing",
+    "where": "Engineering"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Blueprint",
+    "url": "https://en.wikipedia.org/wiki/Blueprint"
+   },
+   {
+    "name": "Midlibrary (Midjourney): Blueprint",
+    "url": "https://midlibrary.io/styles/blueprint"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/blueprint.mjs",
+   "duration": 5
+  }
+ }
+]

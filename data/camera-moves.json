@@ -1,0 +1,849 @@
+[
+  {
+    "id": "push-in",
+    "no": "01",
+    "name": "Push in",
+    "line": "The camera moves toward the subject.",
+    "prompt": "Push in: the camera moves straight toward the subject, from 11 m to 6.4 m away, over 3.4 seconds with a slow start and a slow end. Near objects slide out of frame faster than the background.",
+    "also_called": [
+      {
+        "name": "Push in",
+        "where": "Runway, Kling, Hailuo [Push in]"
+      },
+      {
+        "name": "Dolly In",
+        "where": "Higgsfield"
+      },
+      {
+        "name": "slow dolly-in",
+        "where": "Sora 2"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          1.7,
+          11
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          1.55,
+          6.4
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "pull-back",
+    "no": "02",
+    "name": "Pull back",
+    "line": "The camera moves away and shows more of the scene.",
+    "prompt": "Pull back: the camera moves straight back from the subject, from 4.6 m to 15.5 m away, over 3.4 seconds with a slow start and a slow end, so more of the scene comes into view.",
+    "also_called": [
+      {
+        "name": "Pull back",
+        "where": "Runway, Kling"
+      },
+      {
+        "name": "Pull out",
+        "where": "Hailuo [Pull out], Luma"
+      },
+      {
+        "name": "Dolly Out",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          1.45,
+          4.6
+        ],
+        "target": [
+          0,
+          1.2,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          2.2,
+          15.5
+        ],
+        "target": [
+          0,
+          1.2,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "pan",
+    "no": "03",
+    "name": "Pan",
+    "line": "The camera turns left or right from one spot.",
+    "prompt": "Pan right: the camera stays in one spot and turns about 33 degrees from the tree on the left to the subject, over 3.4 seconds with a slow start and a slow end.",
+    "also_called": [
+      {
+        "name": "Pan",
+        "where": "Runway, Veo, Kling"
+      },
+      {
+        "name": "[Pan right]",
+        "where": "Hailuo"
+      },
+      {
+        "name": "Pan Right",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          1.5,
+          4.6
+        ],
+        "target": [
+          -3.6,
+          1.5,
+          -1
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          1.5,
+          4.6
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "tilt",
+    "no": "04",
+    "name": "Tilt",
+    "line": "The camera turns up or down from one spot.",
+    "prompt": "Tilt up: the camera stays in one spot and turns upward from the ground in front of the subject to the subject's head, over 3.4 seconds with a slow start and a slow end.",
+    "also_called": [
+      {
+        "name": "Tilt up",
+        "where": "Runway, Veo, Kling"
+      },
+      {
+        "name": "[Tilt up]",
+        "where": "Hailuo"
+      },
+      {
+        "name": "Tilt up",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          1.4,
+          7.5
+        ],
+        "target": [
+          0,
+          0,
+          5.6
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          1.4,
+          7.5
+        ],
+        "target": [
+          0,
+          1.9,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "truck",
+    "no": "05",
+    "name": "Truck",
+    "line": "The camera slides sideways, parallel to the scene.",
+    "prompt": "Truck right: the camera slides 6.4 m to the right, parallel to the scene, without turning, over 3.4 seconds with a slow start and a slow end. Near columns pass much faster than the far wall.",
+    "also_called": [
+      {
+        "name": "Truck",
+        "where": "Runway, Veo, Luma"
+      },
+      {
+        "name": "[Truck right]",
+        "where": "Hailuo"
+      },
+      {
+        "name": "Dolly Right",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          -3.2,
+          1.5,
+          8.5
+        ],
+        "target": [
+          -3.2,
+          1.2,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          3.2,
+          1.5,
+          8.5
+        ],
+        "target": [
+          3.2,
+          1.2,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "crane-up",
+    "no": "06",
+    "name": "Crane up",
+    "line": "The camera rises and looks down on the subject.",
+    "prompt": "Crane up: the camera rises from 0.6 m to 7.5 m high while staying aimed at the subject, so the view turns from eye level to looking down, over 3.4 seconds with a slow start and a slow end.",
+    "also_called": [
+      {
+        "name": "Crane/Jib",
+        "where": "Runway"
+      },
+      {
+        "name": "Crane shot",
+        "where": "Veo"
+      },
+      {
+        "name": "Crane up",
+        "where": "Luma"
+      },
+      {
+        "name": "Crane Up",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          0.6,
+          8.5
+        ],
+        "target": [
+          0,
+          1.3,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          7.5,
+          7.5
+        ],
+        "target": [
+          0,
+          0.6,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "orbit",
+    "no": "07",
+    "name": "Orbit",
+    "line": "The camera circles around the subject.",
+    "prompt": "Orbit: the camera circles the subject at 7.5 m, moving 100 degrees from left to right while always facing it, over 3.4 seconds with a slow start and a slow end.",
+    "also_called": [
+      {
+        "name": "Orbit",
+        "where": "Runway, Luma"
+      },
+      {
+        "name": "Orbit slowly",
+        "where": "Kling"
+      },
+      {
+        "name": "Arc shot",
+        "where": "Veo"
+      },
+      {
+        "name": "Arc Right",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "orbit": {
+        "center": [
+          0,
+          1.2,
+          0
+        ],
+        "radius": 7.5,
+        "height": 1.8,
+        "from": -50,
+        "to": 50
+      },
+      "from": {
+        "fov": 38
+      },
+      "to": {
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "dolly-zoom",
+    "no": "08",
+    "name": "Dolly zoom",
+    "line": "The camera pulls back while the lens zooms in.",
+    "prompt": "Dolly zoom: the camera pulls back from 4.6 m to 15 m while the lens zooms in at the same rate, so the subject stays the same size and the background grows behind it, over 3.4 seconds with a slow start and a slow end.",
+    "also_called": [
+      {
+        "name": "Vertigo effect (dolly zoom)",
+        "where": "Veo"
+      },
+      {
+        "name": "Dolly Zoom In",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          1.5,
+          4.6
+        ],
+        "target": [
+          0,
+          1.2,
+          0
+        ],
+        "fov": 62
+      },
+      "to": {
+        "pos": [
+          0,
+          1.5,
+          15
+        ],
+        "target": [
+          0,
+          1.2,
+          0
+        ]
+      },
+      "keepSubject": true
+    }
+  },
+  {
+    "id": "zoom-in",
+    "no": "09",
+    "name": "Zoom in",
+    "line": "The lens zooms in. The camera does not move.",
+    "prompt": "Zoom in: the camera does not move; the lens zooms from a 38 degree to a 15 degree field of view over 3.4 seconds with a slow start and a slow end. Near and far things grow together, with no depth shift.",
+    "also_called": [
+      {
+        "name": "Zoom",
+        "where": "Runway"
+      },
+      {
+        "name": "Zoom (in/out)",
+        "where": "Veo"
+      },
+      {
+        "name": "[Zoom in]",
+        "where": "Hailuo"
+      },
+      {
+        "name": "Zoom In",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "from": {
+        "pos": [
+          0,
+          1.6,
+          11
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          1.6,
+          11
+        ],
+        "target": [
+          0,
+          1.3,
+          0
+        ],
+        "fov": 15
+      }
+    }
+  },
+  {
+    "id": "crash-zoom",
+    "no": "10",
+    "name": "Crash zoom",
+    "line": "A very fast zoom in for impact.",
+    "prompt": "Crash zoom: hold for 1 second, then the lens zooms from a 40 degree to an 11 degree field of view in 0.32 seconds, hitting fast and settling hard, with motion blur during the zoom. The camera does not move.",
+    "also_called": [
+      {
+        "name": "Crash zoom",
+        "where": "Runway"
+      },
+      {
+        "name": "Crash Zoom In",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "start": 1,
+      "length": 0.32,
+      "ease": "outExpo",
+      "blur": 10,
+      "from": {
+        "pos": [
+          0,
+          1.6,
+          11
+        ],
+        "target": [
+          0,
+          1.3,
+          0
+        ],
+        "fov": 40
+      },
+      "to": {
+        "pos": [
+          0,
+          1.6,
+          11
+        ],
+        "target": [
+          0,
+          1.62,
+          0
+        ],
+        "fov": 11
+      }
+    }
+  },
+  {
+    "id": "rack-focus",
+    "no": "11",
+    "name": "Rack focus",
+    "line": "Focus shifts from something near to the subject.",
+    "prompt": "Rack focus: the camera does not move; focus starts on the stone urn 2.4 m away with the subject soft, then shifts to the subject 9.4 m away over 1.2 seconds, so the urn goes soft.",
+    "also_called": [
+      {
+        "name": "Rack focus",
+        "where": "Runway, Veo"
+      },
+      {
+        "name": "Focus Change",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "start": 1.4,
+      "length": 1.2,
+      "props": [
+        "urn"
+      ],
+      "focus": {
+        "from": 2.4,
+        "to": 9.4,
+        "aperture": 0.012,
+        "maxblur": 0.022
+      },
+      "from": {
+        "pos": [
+          0.35,
+          1.3,
+          9.4
+        ],
+        "target": [
+          0,
+          1.15,
+          0
+        ],
+        "fov": 34
+      },
+      "to": {
+        "pos": [
+          0.35,
+          1.3,
+          9.4
+        ],
+        "target": [
+          0,
+          1.15,
+          0
+        ],
+        "fov": 34
+      }
+    }
+  },
+  {
+    "id": "handheld",
+    "no": "12",
+    "name": "Handheld",
+    "line": "Small natural shakes, like a person holding the camera.",
+    "prompt": "Handheld: the camera drifts slowly toward the subject while it sways and shakes slightly, like a person holding it, about 3.5 cm of movement and under half a degree of turn, the whole time.",
+    "also_called": [
+      {
+        "name": "Handheld",
+        "where": "Runway, Higgsfield"
+      },
+      {
+        "name": "Handheld or shaky cam",
+        "where": "Veo"
+      },
+      {
+        "name": "[Shake]",
+        "where": "Hailuo"
+      },
+      {
+        "name": "handheld",
+        "where": "Sora 2"
+      }
+    ],
+    "shot": {
+      "start": 0,
+      "length": 5,
+      "ease": "linear",
+      "shake": {
+        "pos": 0.035,
+        "rot": 0.45
+      },
+      "from": {
+        "pos": [
+          0.2,
+          1.55,
+          8.2
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0.15,
+          1.55,
+          7.6
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "whip-pan",
+    "no": "13",
+    "name": "Whip pan",
+    "line": "A pan so fast the image blurs.",
+    "prompt": "Whip pan: hold on the tree for 1.2 seconds, then the camera swings about 34 degrees to the subject in 0.28 seconds, so fast the image smears with motion blur, then holds on the subject.",
+    "also_called": [
+      {
+        "name": "Whip pan",
+        "where": "Runway, Veo"
+      },
+      {
+        "name": "Whip Pan",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "start": 1.2,
+      "length": 0.28,
+      "ease": "inOutSine",
+      "blur": 12,
+      "from": {
+        "pos": [
+          0,
+          1.5,
+          4.4
+        ],
+        "target": [
+          -3.6,
+          1.6,
+          -1
+        ],
+        "fov": 40
+      },
+      "to": {
+        "pos": [
+          0,
+          1.5,
+          4.4
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 40
+      }
+    }
+  },
+  {
+    "id": "tracking-shot",
+    "no": "14",
+    "name": "Tracking shot",
+    "line": "The camera moves along with a moving subject.",
+    "prompt": "Tracking shot: the subject walks 6.4 m from left to right and the camera moves sideways at the same speed, 6 m away, keeping the subject in frame while the background slides past.",
+    "also_called": [
+      {
+        "name": "Tracking",
+        "where": "Runway"
+      },
+      {
+        "name": "tracking shot",
+        "where": "Kling"
+      },
+      {
+        "name": "[Tracking shot]",
+        "where": "Hailuo"
+      },
+      {
+        "name": "tracking left to right",
+        "where": "Sora 2"
+      }
+    ],
+    "shot": {
+      "start": 0,
+      "length": 5,
+      "ease": "linear",
+      "walk": {
+        "from": [
+          -3.2,
+          2.3
+        ],
+        "to": [
+          3.2,
+          2.3
+        ]
+      },
+      "follow": {
+        "offset": [
+          -0.35,
+          1.45,
+          6
+        ],
+        "look": [
+          0.35,
+          1.05,
+          0
+        ]
+      },
+      "from": {
+        "fov": 38
+      },
+      "to": {
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "roll",
+    "no": "15",
+    "name": "Roll",
+    "line": "The camera tilts sideways around the lens.",
+    "prompt": "Roll: the camera turns 18 degrees sideways around the lens while moving slightly closer, over 3.4 seconds with a slow start and a slow end, ending on a tilted Dutch angle.",
+    "also_called": [
+      {
+        "name": "Roll left",
+        "where": "Luma"
+      },
+      {
+        "name": "Dutch angle",
+        "where": "Veo"
+      },
+      {
+        "name": "Dutch Angle",
+        "where": "Higgsfield"
+      }
+    ],
+    "shot": {
+      "roll": [
+        0,
+        -18
+      ],
+      "from": {
+        "pos": [
+          0,
+          1.55,
+          8.6
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      },
+      "to": {
+        "pos": [
+          0,
+          1.5,
+          7.6
+        ],
+        "target": [
+          0,
+          1.25,
+          0
+        ],
+        "fov": 38
+      }
+    }
+  },
+  {
+    "id": "fpv-flythrough",
+    "no": "16",
+    "name": "FPV fly-through",
+    "line": "A fast drone flight through the scene.",
+    "prompt": "FPV fly-through: a fast drone flight that dives low between the two front columns, banks past the right side of the subject, then climbs high over the plaza and looks back down at it, over 4.2 seconds with motion blur.",
+    "also_called": [
+      {
+        "name": "FPV Drone",
+        "where": "Higgsfield"
+      },
+      {
+        "name": "Aerial shot or drone shot",
+        "where": "Veo"
+      },
+      {
+        "name": "Aerial drone",
+        "where": "Luma"
+      }
+    ],
+    "shot": {
+      "start": 0.4,
+      "length": 4.2,
+      "ease": "inOutSine",
+      "blur": 6,
+      "path": {
+        "points": [
+          [
+            0.4,
+            2.6,
+            16
+          ],
+          [
+            0.75,
+            1.15,
+            8.5
+          ],
+          [
+            0.78,
+            1,
+            5.2
+          ],
+          [
+            1.55,
+            1.25,
+            1.9
+          ],
+          [
+            1.95,
+            2,
+            -1.4
+          ],
+          [
+            0.9,
+            4.2,
+            -3.6
+          ],
+          [
+            -0.6,
+            7.2,
+            -2.6
+          ]
+        ],
+        "lookAhead": 0.08,
+        "endLook": [
+          0,
+          0.8,
+          0
+        ],
+        "endBlend": [
+          0.62,
+          0.92
+        ]
+      },
+      "from": {
+        "fov": 58
+      },
+      "to": {
+        "fov": 50
+      }
+    }
+  }
+]

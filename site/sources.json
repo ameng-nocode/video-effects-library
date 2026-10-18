@@ -1,0 +1,9 @@
+[
+  {"id": "runway", "match": ["Runway"], "name": "Runway", "doc": "Camera terms guide", "short": "Runway"},
+  {"id": "veo", "match": ["Veo"], "name": "Google Veo", "doc": "Video prompt guide", "short": "Veo"},
+  {"id": "kling", "match": ["Kling"], "name": "Kling", "doc": "Camera control guide", "short": "Kling"},
+  {"id": "hailuo", "match": ["Hailuo", "MiniMax"], "name": "MiniMax Hailuo", "doc": "Video API docs", "short": "Hailuo"},
+  {"id": "higgsfield", "match": ["Higgsfield"], "name": "Higgsfield", "doc": "Camera controls", "short": "Higgsfield"},
+  {"id": "luma", "match": ["Luma"], "name": "Luma", "doc": "Camera motion launch notes", "url": "https://lumalabs.ai/changelog/camera-motion-concepts-launch", "short": "Luma"},
+  {"id": "sora", "match": ["Sora"], "name": "OpenAI Sora 2", "doc": "Sora 2 prompting guide", "short": "Sora"}
+]

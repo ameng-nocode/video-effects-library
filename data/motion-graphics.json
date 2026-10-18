@@ -1,0 +1,578 @@
+[
+  {
+    "id": "pop-in",
+    "no": "01",
+    "name": "Pop in",
+    "line": "A shape grows from nothing with a small bounce.",
+    "prompt": "Pop in: a red tile grows from nothing to full size at 0.5 s over 0.6 s, overshooting about 15% before it settles, while it turns into place. A white ball pops in the same way at 1.25 s and a white cylinder at 1.6 s, each over 0.5 s. Every shape grows from its base on the floor.",
+    "also_called": [
+      {
+        "name": "bounceIn / zoomIn",
+        "where": "Animate.css"
+      },
+      {
+        "name": "back.out ease",
+        "where": "GSAP"
+      },
+      {
+        "name": "Scale in",
+        "where": "UI motion libraries"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      },
+      {
+        "name": "GSAP: Eases",
+        "url": "https://gsap.com/docs/v3/Eases/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/pop-in/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "overshoot",
+    "no": "02",
+    "name": "Overshoot",
+    "line": "A shape goes past its stop, then springs back.",
+    "prompt": "Overshoot: a white block slides in from the left at 0.5 s and passes its stop mark by about 20% of the distance, then springs back and settles on the mark by 1.4 s. A red block does the same from the right at 1.9 s. The ease is a back-out curve: fast start, overshoot, soft settle.",
+    "also_called": [
+      {
+        "name": "back.out (overshoot amount)",
+        "where": "GSAP"
+      },
+      {
+        "name": "easeOutBack",
+        "where": "easings.net, CSS cubic-bezier"
+      },
+      {
+        "name": "backOut",
+        "where": "Motion (Framer Motion)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: Eases",
+        "url": "https://gsap.com/docs/v3/Eases/"
+      },
+      {
+        "name": "easings.net: easeOutBack",
+        "url": "https://easings.net/#easeOutBack"
+      },
+      {
+        "name": "Motion: easing functions",
+        "url": "https://motion.dev/docs/easing-functions"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/overshoot/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "squash-and-stretch",
+    "no": "03",
+    "name": "Squash and stretch",
+    "line": "A shape flattens on impact and stretches as it moves.",
+    "prompt": "Squash and stretch: a red ball drops from above the frame at 0.4 s and hits the floor at 1.0 s, squashing to 60% height and 135% width for 0.1 s, then stretches tall as it bounces up. Two smaller bounces follow (at 1.75 s and 2.3 s), each with less squash, and the ball settles at 2.7 s. Its volume stays the same: when it gets shorter it gets wider.",
+    "also_called": [
+      {
+        "name": "Squash and stretch",
+        "where": "Disney's 12 principles of animation"
+      },
+      {
+        "name": "Squash & stretch",
+        "where": "After Effects and Lottie tutorials"
+      },
+      {
+        "name": "bounce",
+        "where": "Animate.css (a bounce without the squash)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Twelve basic principles of animation",
+        "url": "https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation"
+      },
+      {
+        "name": "Squash and stretch",
+        "url": "https://en.wikipedia.org/wiki/Squash_and_stretch"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/squash-and-stretch/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "anticipation",
+    "no": "04",
+    "name": "Anticipation",
+    "line": "A small move back before the big move forward.",
+    "prompt": "Anticipation: a red cube crouches to 70% height and leans back away from where it will go, from 0.5 s to 1.1 s. At 1.25 s it springs up, stretched tall, and jumps right in an arc 1.7 m high, landing at 1.8 s with a small squash and a springy settle.",
+    "also_called": [
+      {
+        "name": "Anticipation",
+        "where": "Disney's 12 principles of animation"
+      },
+      {
+        "name": "Wind-up",
+        "where": "animation and game design"
+      },
+      {
+        "name": "anticipate ease",
+        "where": "Motion (Framer Motion)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Twelve basic principles of animation",
+        "url": "https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation"
+      },
+      {
+        "name": "Motion: easing functions",
+        "url": "https://motion.dev/docs/easing-functions"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/anticipation/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "stagger",
+    "no": "05",
+    "name": "Stagger",
+    "line": "Many items start the same move one after another.",
+    "prompt": "Stagger: a 4 by 4 grid of rounded tiles pops up from the floor in a diagonal wave from the front left corner, each tile starting 0.07 s after the one before, each one rising and growing from 0 to full size over 0.7 s with a soft overshoot. The wave runs from 0.5 s to 2.3 s. One tile is red, the rest are white.",
+    "also_called": [
+      {
+        "name": "stagger",
+        "where": "GSAP, Motion (Framer Motion)"
+      },
+      {
+        "name": "Staggered animation",
+        "where": "Flutter, Android docs"
+      },
+      {
+        "name": "Sequence layers / offset",
+        "where": "After Effects"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: Staggers",
+        "url": "https://gsap.com/resources/getting-started/Staggers"
+      },
+      {
+        "name": "Motion: stagger",
+        "url": "https://motion.dev/docs/stagger"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/stagger/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "mask-reveal",
+    "no": "06",
+    "name": "Mask reveal",
+    "line": "Content appears from behind an edge or a wipe.",
+    "prompt": "Mask reveal: at 0.5 s a red bar wipes across the first line from left to right in 0.45 s; the word \"Mask\" is under it when it wipes away to the right at 0.95 s. At 1.55 s the word \"reveal\" rises up from behind the bottom edge of its line over 0.8 s with a strong ease-out. Nothing fades: the words are cut by hard edges.",
+    "also_called": [
+      {
+        "name": "Track matte reveal",
+        "where": "After Effects"
+      },
+      {
+        "name": "Clip-path / mask reveal",
+        "where": "CSS, GSAP"
+      },
+      {
+        "name": "Wipe reveal, line reveal",
+        "where": "motion design"
+      }
+    ],
+    "sources": [
+      {
+        "name": "After Effects: alpha channels, masks and mattes",
+        "url": "https://helpx.adobe.com/after-effects/desktop/work-with-transparency-and-compositing/work-with-alpha-channels-and-masks/alpha-channels-masks-mattes.html"
+      },
+      {
+        "name": "MDN: clip-path",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/mask-reveal/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "line-draw",
+    "no": "07",
+    "name": "Line draw",
+    "line": "A line draws itself from start to end.",
+    "prompt": "Line draw: a thick red line draws itself from its start point over the floor, curves around, then rises into a loop and ends in the air, from 0.5 s to 2.9 s with a slow start and a slow end. A small white dot rides the tip of the line as it draws.",
+    "also_called": [
+      {
+        "name": "Trim Paths",
+        "where": "After Effects"
+      },
+      {
+        "name": "DrawSVG / stroke draw-on",
+        "where": "GSAP"
+      },
+      {
+        "name": "Write-on",
+        "where": "motion design"
+      }
+    ],
+    "sources": [
+      {
+        "name": "After Effects: Trim Paths (shape attributes)",
+        "url": "https://helpx.adobe.com/after-effects/desktop/drawing-painting-and-paths/shapes-and-shape-attributes/shape-attributes-paint-operations-path.html"
+      },
+      {
+        "name": "GSAP: DrawSVG",
+        "url": "https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/line-draw/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "shape-morph",
+    "no": "08",
+    "name": "Shape morph",
+    "line": "One shape smoothly turns into another.",
+    "prompt": "Shape morph: a slowly turning red sphere flows into a rounded cube from 0.6 s to 1.45 s, then flows into a cylinder from 2.3 s to 3.15 s, with a slow start and a slow end each time. It is one shape changing, not a cut or a cross-fade.",
+    "also_called": [
+      {
+        "name": "MorphSVG",
+        "where": "GSAP"
+      },
+      {
+        "name": "Shape morphing / path morph",
+        "where": "After Effects, Lottie"
+      },
+      {
+        "name": "Morphing",
+        "where": "film and animation"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: MorphSVG",
+        "url": "https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/"
+      },
+      {
+        "name": "Morphing",
+        "url": "https://en.wikipedia.org/wiki/Morphing"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/shape-morph/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "count-up",
+    "no": "09",
+    "name": "Count-up",
+    "line": "A number rolls up to its final value.",
+    "prompt": "Count-up: a big number counts from 0 to 12,480 between 0.5 s and 2.7 s, fast at first and slowing as it nears the end, with a red progress bar filling at the same pace. When it lands, the number gives one small 5% pulse. Digits keep a fixed width so the number does not wobble.",
+    "also_called": [
+      {
+        "name": "CountUp",
+        "where": "CountUp.js"
+      },
+      {
+        "name": "Odometer",
+        "where": "HubSpot Odometer"
+      },
+      {
+        "name": "Rolling number",
+        "where": "HyperFrames number-wheel"
+      }
+    ],
+    "sources": [
+      {
+        "name": "CountUp.js",
+        "url": "https://github.com/inorganik/countUp.js"
+      },
+      {
+        "name": "HubSpot Odometer",
+        "url": "https://github.com/HubSpot/odometer"
+      },
+      {
+        "name": "HyperFrames: number-wheel",
+        "url": "https://hyperframes.heygen.com/catalog/components/number-wheel"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/count-up/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "kinetic-typography",
+    "no": "10",
+    "name": "Kinetic typography",
+    "line": "Words move, scale and turn to match the voice.",
+    "prompt": "Kinetic typography: four words land one by one on the beat. \"Words\" rises out of a mask at 0.4 s, \"that\" swings in from the right at 0.85 s, \"MOVE\" lands huge in red at 1.3 s from 2.4 times its size with a blur that clears, and the block jolts down on impact. \"with you.\" types in letter by letter from 1.9 s. At 3.0 s the whole block turns 6 degrees and pushes slightly closer, then holds.",
+    "also_called": [
+      {
+        "name": "Kinetic typography",
+        "where": "motion design term (Saul Bass titles onward)"
+      },
+      {
+        "name": "Kinetic type / moving type",
+        "where": "After Effects and motion design courses"
+      },
+      {
+        "name": "SplitText animation",
+        "where": "GSAP (word and letter splits)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Kinetic typography",
+        "url": "https://en.wikipedia.org/wiki/Kinetic_typography"
+      },
+      {
+        "name": "GSAP: SplitText",
+        "url": "https://gsap.com/docs/v3/Plugins/SplitText/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/kinetic-typography/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "motion-path",
+    "no": "11",
+    "name": "Motion path",
+    "line": "An object travels along a set curve.",
+    "prompt": "Motion path: a red pill travels along a curved 3D path that loops around the platform, from 0.5 s to 3.7 s with a slow start and a slow end, always pointing the way it is going. A faint grey guide line shows the whole path.",
+    "also_called": [
+      {
+        "name": "MotionPath",
+        "where": "GSAP"
+      },
+      {
+        "name": "offset-path",
+        "where": "CSS"
+      },
+      {
+        "name": "Motion path, auto-orient",
+        "where": "After Effects"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GSAP: MotionPath",
+        "url": "https://gsap.com/docs/v3/Plugins/MotionPathPlugin/"
+      },
+      {
+        "name": "MDN: offset-path",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset-path"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/motion-path/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "motion-trail",
+    "no": "12",
+    "name": "Motion trail",
+    "line": "Fading copies follow a moving object.",
+    "prompt": "Motion trail: a red ball swings in a high arc from left to right between 0.5 s and 1.5 s, and back between 2.2 s and 3.2 s. Nine see-through copies follow it, each 0.035 s behind the one before, getting fainter and a little smaller.",
+    "also_called": [
+      {
+        "name": "Echo",
+        "where": "After Effects"
+      },
+      {
+        "name": "Ghost trail, afterimage",
+        "where": "motion design"
+      },
+      {
+        "name": "Onion skin look",
+        "where": "animation"
+      }
+    ],
+    "sources": [
+      {
+        "name": "After Effects: Echo effect (time effects)",
+        "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/time-effects.html"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/motion-trail/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "parallax",
+    "no": "13",
+    "name": "Parallax",
+    "line": "Near layers move faster than far ones.",
+    "prompt": "Parallax: four layers slide left together from 0.4 s to 4.6 s with a slow start and a slow end. The row of trees in front moves fastest, the middle hills about half as fast, the back hills slower again, and the red sun barely moves, which gives depth.",
+    "also_called": [
+      {
+        "name": "Parallax scrolling",
+        "where": "web and games"
+      },
+      {
+        "name": "2.5D parallax",
+        "where": "After Effects 3D layers"
+      },
+      {
+        "name": "Multiplane effect",
+        "where": "classic animation"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Parallax scrolling",
+        "url": "https://en.wikipedia.org/wiki/Parallax_scrolling"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/parallax/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "light-sweep",
+    "no": "14",
+    "name": "Light sweep",
+    "line": "A band of light slides across a surface.",
+    "prompt": "Light sweep: a narrow diagonal band of white light slides across a dark card from left to right, from 0.7 s to 1.65 s, and again from 2.6 s to 3.55 s, with a slow start and a slow end. The card turns a little toward the camera the whole time.",
+    "also_called": [
+      {
+        "name": "CC Light Sweep",
+        "where": "After Effects"
+      },
+      {
+        "name": "Shine / sheen",
+        "where": "logo animation"
+      },
+      {
+        "name": "Light sweep pass",
+        "where": "HyperFrames"
+      }
+    ],
+    "sources": [
+      {
+        "name": "After Effects: generate effects (CC Light Sweep)",
+        "url": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html"
+      },
+      {
+        "name": "HyperFrames: light-sweep-pass",
+        "url": "https://hyperframes.heygen.com/catalog/components/light-sweep-pass"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/light-sweep/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "glitch",
+    "no": "15",
+    "name": "Glitch",
+    "line": "Short digital breaks: split colours and jumping slices.",
+    "prompt": "Glitch: the word flickers on at 0.5 s, then three short glitch bursts hit at 0.5 s, 1.9 s and 3.3 s (each 0.25 to 0.35 s). In a burst, a red copy and a grey copy split sideways, and a thin slice of the word jumps left or right, changing every frame. Between bursts the word is clean and still.",
+    "also_called": [
+      {
+        "name": "Glitch",
+        "where": "HyperFrames, After Effects presets"
+      },
+      {
+        "name": "RGB split, datamosh look",
+        "where": "motion design"
+      },
+      {
+        "name": "Glitch art",
+        "where": "visual art"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HyperFrames: glitch",
+        "url": "https://hyperframes.heygen.com/catalog/blocks/glitch"
+      },
+      {
+        "name": "Glitch art",
+        "url": "https://en.wikipedia.org/wiki/Glitch_art"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/glitch/index.html",
+      "duration": 5
+    }
+  },
+  {
+    "id": "impact-shake",
+    "no": "16",
+    "name": "Impact shake",
+    "line": "The frame shakes when something lands hard.",
+    "prompt": "Impact shake: a heavy red block drops and lands at 1.0 s; the whole frame shakes hard and the shake dies away in about 0.5 s, while small pieces on the floor jump. A white block lands on top at 2.4 s with a smaller shake.",
+    "also_called": [
+      {
+        "name": "Camera shake",
+        "where": "HyperFrames, After Effects wiggle"
+      },
+      {
+        "name": "Screen shake",
+        "where": "game design"
+      },
+      {
+        "name": "shakeX / shakeY",
+        "where": "Animate.css"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HyperFrames: camera-shake",
+        "url": "https://hyperframes.heygen.com/catalog/components/camera-shake"
+      },
+      {
+        "name": "Animate.css",
+        "url": "https://animate.style/"
+      }
+    ],
+    "clip": {
+      "made_with": "HyperFrames + Three.js + GSAP",
+      "scene": "previews/mg/impact-shake/index.html",
+      "duration": 5
+    }
+  }
+]
