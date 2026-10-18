@@ -1254,5 +1254,77 @@
    "scene": "scripts/ds-styles/blueprint.mjs",
    "duration": 5
   }
+ },
+ {
+  "id": "technical-drawing",
+  "no": "45",
+  "name": "Technical drawing",
+  "line": "A pencil sketch that turns blueprint, then hologram.",
+  "prompt": "Technical drawing style with a sketch to blueprint to hologram morph: one object drawn three ways with no cuts and a locked, front-on camera. Stage 1: graphite pencil lines that wobble slightly, stroked twice, on cream graph paper (#EDE6D5) with a fine blue grid, fills are blue diagonal hatching drawn on one line at a time, small mono labels like FIG. 01 and STEP 04 / 12. Stage 2: a straight edge wipes across and the same drawing becomes clean white lines on bright blueprint blue (#1B3ED2), hidden edges dashed, fine white hatching, dimension lines. Stage 3: another wipe turns it into a cyan (#45F0DD) wireframe hologram on black, lines with a white core, fills as horizontal scan lines. The object keeps turning slowly. Heavy sans serif word at the bottom in each stage ink. No glows, no crossfades.",
+  "also_called": [
+   {
+    "name": "Draftsman sketch",
+    "where": "Illustration"
+   },
+   {
+    "name": "Sketch to hologram morph",
+    "where": "Motion design"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Technical drawing",
+    "url": "https://en.wikipedia.org/wiki/Technical_drawing"
+   },
+   {
+    "name": "Wikipedia: Hatching",
+    "url": "https://en.wikipedia.org/wiki/Hatching"
+   },
+   {
+    "name": "Wikipedia: Wire-frame model",
+    "url": "https://en.wikipedia.org/wiki/Wire-frame_model"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/technical-drawing.mjs",
+   "duration": 5
+  }
+ },
+ {
+  "id": "storybook-illustration",
+  "no": "46",
+  "name": "Storybook illustration",
+  "line": "A cozy painted picture-book scene.",
+  "prompt": "Storybook illustration style (cozy game art): a soft painted 2D scene with grainy paper texture and slightly rough painted edges. Gentle layered mountains in lilac, a calm pond, green grass, flowers and big leaves in the foreground, a vine across the top corner. A small, cute, round character with dot eyes and blushing cheeks. Light moves through the day: pink dawn sky, bright blue day with a sun crossing, then deep blue night with a moon, stars and glowing fireflies. The character hops, waves and blinks; leaves and flowers sway. Warm, calm and handmade.",
+  "also_called": [
+   {
+    "name": "Cozy game art",
+    "where": "Games"
+   },
+   {
+    "name": "Picture book style",
+    "where": "Illustration"
+   }
+  ],
+  "sources": [
+   {
+    "name": "Wikipedia: Picture book",
+    "url": "https://en.wikipedia.org/wiki/Picture_book"
+   },
+   {
+    "name": "Wikipedia: Children's book illustration",
+    "url": "https://en.wikipedia.org/wiki/Children%27s_book_illustration"
+   },
+   {
+    "name": "Wikipedia: Cozy game",
+    "url": "https://en.wikipedia.org/wiki/Cozy_game"
+   }
+  ],
+  "clip": {
+   "made_with": "HyperFrames + GSAP (coded, no AI images)",
+   "scene": "scripts/ds-styles/storybook-illustration.mjs",
+   "duration": 5
+  }
  }
 ]

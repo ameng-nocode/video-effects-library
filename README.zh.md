@@ -5,7 +5,7 @@
 <h1 align="center">Video Effects Library</h1>
 
 <p align="center">
-  104 个有名字的视频效果，每个都有一段会动的短片。<br>
+  106 个有名字的视频效果，每个都有一段会动的短片。<br>
   勾选你要的，复制一个 prompt，丢进 Claude Code 或任何 AI 视频工具。
 </p>
 
@@ -32,7 +32,7 @@
 |---|---|---|
 | **运镜** | 16 | Push in、Orbit、Dolly zoom、Whip pan、FPV fly-through，全部在同一个 3D 场景拍，方便比较 |
 | **动态图形** | 16 | Pop in、Overshoot、Stagger、Mask reveal、Count-up、Motion trail |
-| **设计风格** | 44 | Bauhaus、Swiss style、Risograph、Glassmorphism、Liquid metal、FUI、Frutiger Aero、Y2K，每个风格都用它自己的样子画、自己的方式动 |
+| **设计风格** | 46 | Bauhaus、Swiss style、Risograph、Glassmorphism、Liquid metal、FUI、Frutiger Aero、Y2K，每个风格都用它自己的样子画、自己的方式动 |
 | **文字动画** | 28 | Typewriter、Scramble、Highlighter、Karaoke 字幕、3D 立体字 |
 
 每个效果都有：

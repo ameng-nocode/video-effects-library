@@ -5,7 +5,7 @@
 <h1 align="center">Video Effects Library</h1>
 
 <p align="center">
-  104 named video effects, each shown as a short playing clip.<br>
+  106 named video effects, each shown as a short playing clip.<br>
   Tick the ones you want and copy one prompt for Claude Code or any AI video tool.
 </p>
 
@@ -38,7 +38,7 @@ This library puts the real name on each effect, shows it moving, and gives you t
 |---|---|---|
 | **Camera moves** | 16 | Push in, orbit, dolly zoom, whip pan, FPV fly-through and more, all filmed in the same 3D set so you can compare them |
 | **Motion graphics** | 16 | Pop in, overshoot, stagger, mask reveal, count-up, motion trail and more |
-| **Design styles** | 44 | Bauhaus, Swiss style, Risograph, Glassmorphism, Liquid metal, FUI, Frutiger Aero, Y2K and more, each drawn and moving in its own style |
+| **Design styles** | 46 | Bauhaus, Swiss style, Risograph, Glassmorphism, Liquid metal, FUI, Technical drawing, Storybook illustration and more, each drawn and moving in its own style |
 | **Text animation** | 28 | Typewriter, scramble, highlighter, karaoke captions, 3D extruded text and more |
 
 Every effect has:

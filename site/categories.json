@@ -123,7 +123,8 @@
           "doodle",
           "lo-fi-anime",
           "y2k",
-          "retro-vhs"
+          "retro-vhs",
+          "storybook-illustration"
         ]
       },
       {
@@ -155,7 +156,8 @@
           "ink-wash",
           "stained-glass",
           "paper-cut",
-          "blueprint"
+          "blueprint",
+          "technical-drawing"
         ]
       },
       {
@@ -196,7 +198,8 @@
           "cyberpunk",
           "neon-sign",
           "steampunk",
-          "dark-hud"
+          "dark-hud",
+          "technical-drawing"
         ]
       },
       {
@@ -206,7 +209,8 @@
           "anime-cel-shading",
           "lo-fi-anime",
           "flat-vector",
-          "doodle"
+          "doodle",
+          "storybook-illustration"
         ]
       }
     ],

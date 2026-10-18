@@ -1544,7 +1544,8 @@ window.LIBRARY = {
       "doodle",
       "lo-fi-anime",
       "y2k",
-      "retro-vhs"
+      "retro-vhs",
+      "storybook-illustration"
      ],
      "label_zh": "TikTok 风"
     },
@@ -1578,7 +1579,8 @@ window.LIBRARY = {
       "ink-wash",
       "stained-glass",
       "paper-cut",
-      "blueprint"
+      "blueprint",
+      "technical-drawing"
      ],
      "label_zh": "印刷和手绘"
     },
@@ -1622,7 +1624,8 @@ window.LIBRARY = {
       "cyberpunk",
       "neon-sign",
       "steampunk",
-      "dark-hud"
+      "dark-hud",
+      "technical-drawing"
      ],
      "label_zh": "复古和未来"
     },
@@ -1633,7 +1636,8 @@ window.LIBRARY = {
       "anime-cel-shading",
       "lo-fi-anime",
       "flat-vector",
-      "doodle"
+      "doodle",
+      "storybook-illustration"
      ],
      "label_zh": "手绘和动漫"
     }
@@ -2880,6 +2884,78 @@ window.LIBRARY = {
       }
      ],
      "clip": "../previews/clips/design-styles/blueprint.mp4"
+    },
+    {
+     "id": "technical-drawing",
+     "no": "45",
+     "name": "Technical drawing",
+     "line": "A pencil sketch that turns blueprint, then hologram.",
+     "use_when": "",
+     "prompt": "Technical drawing style with a sketch to blueprint to hologram morph: one object drawn three ways with no cuts and a locked, front-on camera. Stage 1: graphite pencil lines that wobble slightly, stroked twice, on cream graph paper (#EDE6D5) with a fine blue grid, fills are blue diagonal hatching drawn on one line at a time, small mono labels like FIG. 01 and STEP 04 / 12. Stage 2: a straight edge wipes across and the same drawing becomes clean white lines on bright blueprint blue (#1B3ED2), hidden edges dashed, fine white hatching, dimension lines. Stage 3: another wipe turns it into a cyan (#45F0DD) wireframe hologram on black, lines with a white core, fills as horizontal scan lines. The object keeps turning slowly. Heavy sans serif word at the bottom in each stage ink. No glows, no crossfades.",
+     "also_called": [
+      {
+       "name": "Draftsman sketch",
+       "where": "Illustration",
+       "sources": []
+      },
+      {
+       "name": "Sketch to hologram morph",
+       "where": "Motion design",
+       "sources": []
+      }
+     ],
+     "tags": [],
+     "refs": [
+      {
+       "name": "Wikipedia: Technical drawing",
+       "url": "https://en.wikipedia.org/wiki/Technical_drawing"
+      },
+      {
+       "name": "Wikipedia: Hatching",
+       "url": "https://en.wikipedia.org/wiki/Hatching"
+      },
+      {
+       "name": "Wikipedia: Wire-frame model",
+       "url": "https://en.wikipedia.org/wiki/Wire-frame_model"
+      }
+     ],
+     "clip": "../previews/clips/design-styles/technical-drawing.mp4"
+    },
+    {
+     "id": "storybook-illustration",
+     "no": "46",
+     "name": "Storybook illustration",
+     "line": "A cozy painted picture-book scene.",
+     "use_when": "",
+     "prompt": "Storybook illustration style (cozy game art): a soft painted 2D scene with grainy paper texture and slightly rough painted edges. Gentle layered mountains in lilac, a calm pond, green grass, flowers and big leaves in the foreground, a vine across the top corner. A small, cute, round character with dot eyes and blushing cheeks. Light moves through the day: pink dawn sky, bright blue day with a sun crossing, then deep blue night with a moon, stars and glowing fireflies. The character hops, waves and blinks; leaves and flowers sway. Warm, calm and handmade.",
+     "also_called": [
+      {
+       "name": "Cozy game art",
+       "where": "Games",
+       "sources": []
+      },
+      {
+       "name": "Picture book style",
+       "where": "Illustration",
+       "sources": []
+      }
+     ],
+     "tags": [],
+     "refs": [
+      {
+       "name": "Wikipedia: Picture book",
+       "url": "https://en.wikipedia.org/wiki/Picture_book"
+      },
+      {
+       "name": "Wikipedia: Children's book illustration",
+       "url": "https://en.wikipedia.org/wiki/Children%27s_book_illustration"
+      },
+      {
+       "name": "Wikipedia: Cozy game",
+       "url": "https://en.wikipedia.org/wiki/Cozy_game"
+      }
+     ],
+     "clip": "../previews/clips/design-styles/storybook-illustration.mp4"
     }
    ]
   },

@@ -43,7 +43,7 @@ ${a.css}
   <div id="card">${a.card}</div>
   <div style="position:absolute;left:0;right:0;bottom:0;height:520px;background:linear-gradient(to top, rgba(233,236,240,.96), rgba(233,236,240,0));"></div>
   <div class="label" style="top:88px;font-family:'Geist Mono',monospace;font-size:28px;font-weight:500;letter-spacing:.14em;color:#5B616B;">DESIGN STYLE ${s.no}</div>
-  <div class="label" style="bottom:196px;font-size:118px;font-weight:700;letter-spacing:-.03em;line-height:1;">${esc(s.name)}</div>
+  <div class="label" style="bottom:196px;font-size:${s.name.length > 18 ? 96 : 118}px;font-weight:700;letter-spacing:-.03em;line-height:1;">${esc(s.name)}</div>
   <div class="label" style="bottom:128px;font-size:36px;font-weight:500;color:#5B616B;">${esc(s.line)}</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
