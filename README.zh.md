@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <b><a href="https://video-effects-library.vercel.app">打开网站</a></b> ·
   <a href="README.md">English</a> ·
   <a href="#怎样用">怎样用</a> ·
   <a href="#里面有什么">里面有什么</a> ·
@@ -44,7 +45,9 @@
 
 ## 怎样用
 
-不用安装，不用开 server。下载这个 repo，打开一个文件就好：
+**在线用：** 打开 [video-effects-library.vercel.app](https://video-effects-library.vercel.app)。
+
+**在自己电脑用：** 不用安装，不用开 server。下载这个 repo，打开一个文件就好：
 
 ```bash
 git clone https://github.com/ameng-nocode/video-effects-library.git
